@@ -1,0 +1,1567 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.31)  25 OCT 2017 08:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./1--Catfying_zxCalc--Master.tex
+(./1--Catfying_zxCalc--Master.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./eptcs.cls
+Document Class: eptcs 2010/11/26 v1.5
+(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count89
+
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count90
+
+(c:/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count91
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+\c@firstpage=\count97
+)
+(./2--Catfying_zxCalc--Preamble.tex
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks16
+\thm@bodyfont=\toks17
+\thm@headfont=\toks18
+\thm@notefont=\toks19
+\thm@headpunct=\toks20
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks21
+)
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen107
+))
+(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(c:/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip11
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks23
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks24
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks25
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count110
+)
+(c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(c:/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count113
+\calc@Cskip=\skip52
+)
+(c:/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count114
+\l_MT_multwidth_dim=\dimen118
+\origjot=\skip53
+\l_MT_shortvdotswithinadjustabove_dim=\dimen119
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen120
+\l_MT_above_intertext_sep=\dimen121
+\l_MT_below_intertext_sep=\dimen122
+\l_MT_above_shortintertext_sep=\dimen123
+\l_MT_below_shortintertext_sep=\dimen124
+)
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(c:/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count115
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(c:/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count116
+Package caption Info: hyperref package is loaded.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count117
+\c@subtable=\count118
+)
+(c:/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen134
+\pgfutil@tempdimb=\dimen135
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(c:/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen136
+\pgf@y=\dimen137
+\pgf@xa=\dimen138
+\pgf@ya=\dimen139
+\pgf@xb=\dimen140
+\pgf@yb=\dimen141
+\pgf@xc=\dimen142
+\pgf@yc=\dimen143
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count119
+\c@pgf@countb=\count120
+\c@pgf@countc=\count121
+\c@pgf@countd=\count122
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+ (c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count123
+\pgfsyssoftpath@bigbuffer@items=\count124
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen144
+\pgfmath@count=\count125
+\pgfmath@box=\box29
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count126
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@xx=\dimen153
+\pgf@xy=\dimen154
+\pgf@yx=\dimen155
+\pgf@yy=\dimen156
+\pgf@zx=\dimen157
+\pgf@zy=\dimen158
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen159
+\pgf@path@lasty=\dimen160
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen161
+\pgf@shorten@start@additional=\dimen162
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count127
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen163
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen164
+\pgf@pt@y=\dimen165
+\pgf@pt@temp=\dimen166
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen167
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen168
+\pgf@sys@shading@range@num=\count128
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box33
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box34
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen169
+\pgf@nodesepend=\dimen170
+)
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (c:/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen171
+\pgffor@skip=\dimen172
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count129
+\pgfplotmarksize=\dimen173
+)
+\tikz@lastx=\dimen174
+\tikz@lasty=\dimen175
+\tikz@lastxsaved=\dimen176
+\tikz@lastysaved=\dimen177
+\tikzleveldistance=\dimen178
+\tikzsiblingdistance=\dimen179
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count130
+\tikznumberofchildren=\count131
+\tikznumberofcurrentchild=\count132
+\tikz@fig@count=\count133
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count134
+\pgfmatrixcurrentcolumn=\count135
+\pgf@matrix@numberofcolumns=\count136
+)
+\tikz@expandcount=\count137
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen180
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.g
+eometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+isc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.s
+ymbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.a
+rrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.callouts.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.c
+allouts.code.tex))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
+ultipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box39
+\pgfnodeparttwobox=\box40
+\pgfnodepartthreebox=\box41
+\pgfnodepartfourbox=\box42
+\pgfnodeparttwentybox=\box43
+\pgfnodepartnineteenbox=\box44
+\pgfnodeparteighteenbox=\box45
+\pgfnodepartseventeenbox=\box46
+\pgfnodepartsixteenbox=\box47
+\pgfnodepartfifteenbox=\box48
+\pgfnodepartfourteenbox=\box49
+\pgfnodepartthirteenbox=\box50
+\pgfnodeparttwelvebox=\box51
+\pgfnodepartelevenbox=\box52
+\pgfnodeparttenbox=\box53
+\pgfnodepartninebox=\box54
+\pgfnodeparteightbox=\box55
+\pgfnodepartsevenbox=\box56
+\pgfnodepartsixbox=\box57
+\pgfnodepartfivebox=\box58
+)))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.markings.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen181
+\pgfdecoratedremainingdistance=\dimen182
+\pgfdecoratedinputsegmentcompleteddistance=\dimen183
+\pgfdecoratedinputsegmentremainingdistance=\dimen184
+\pgf@decorate@distancetomove=\dimen185
+\pgf@decorate@repeatstate=\count138
+\pgfdecorationsegmentamplitude=\dimen186
+\pgfdecorationsegmentlength=\dimen187
+)
+\tikz@lib@dec@box=\box59
+)
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.markings.code.tex))
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+\c@thm=\count139
+) (./1--Catfying_zxCalc--Master.aux)
+\openout1 = `1--Catfying_zxCalc--Master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\AtBeginShipoutBox=\box60
+Package hyperref Info: Link coloring OFF on input line 27.
+
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count140
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+
+(./1--Catfying_zxCalc--Master.out) (./1--Catfying_zxCalc--Master.out)
+\@outlinefile=\write4
+\openout4 = `1--Catfying_zxCalc--Master.out'.
+
+
+(c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count141
+\scratchdimen=\dimen188
+\scratchbox=\box61
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen189
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks40
+) (c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 32
+.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 32
+.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 32
+.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 32
+.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 32.
+
+(c:/texlive/2015/texmf-dist/tex/latex/stmaryrd/ustmry.fd)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+
+(./a--Catfying_zxCalc--Intro.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+ [1
+
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<InclGrphx--generater--wire.pdf, id=115, 35.1182pt x 12.35616pt>
+File: InclGrphx--generater--wire.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--wire.pdf>
+Package pdftex.def Info: InclGrphx--generater--wire.pdf used on input line 312.
+
+(pdftex.def)             Requested size: 35.1181pt x 12.35611pt.
+
+<InclGrphx--generater--green_spider.pdf, id=116, 62.8488pt x 25.45007pt>
+File: InclGrphx--generater--green_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--green_spider.pdf>
+Package pdftex.def Info: InclGrphx--generater--green_spider.pdf used on input l
+ine 312.
+(pdftex.def)             Requested size: 62.84863pt x 25.45pt.
+
+<InclGrphx--generater--red_spider.pdf, id=117, 62.8488pt x 27.22571pt>
+File: InclGrphx--generater--red_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--red_spider.pdf>
+Package pdftex.def Info: InclGrphx--generater--red_spider.pdf used on input lin
+e 312.
+(pdftex.def)             Requested size: 62.84863pt x 27.22562pt.
+
+<InclGrphx--generater--hadamard.pdf, id=118, 40.80946pt x 7.4659pt>
+File: InclGrphx--generater--hadamard.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--hadamard.pdf>
+Package pdftex.def Info: InclGrphx--generater--hadamard.pdf used on input line 
+312.
+(pdftex.def)             Requested size: 40.80934pt x 7.46585pt.
+
+<InclGrphx--generater--diamond.pdf, id=119, 10.83447pt x 10.83447pt>
+File: InclGrphx--generater--diamond.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--diamond.pdf>
+Package pdftex.def Info: InclGrphx--generater--diamond.pdf used on input line 3
+12.
+(pdftex.def)             Requested size: 10.83443pt x 10.83443pt.
+
+Overfull \hbox (9.53748pt too wide) in paragraph at lines 312--313
+[][] 
+ []
+
+<InclGrphx--SpCsp--span_cospans.pdf, id=130, 63.5715pt x 63.5715pt>
+File: InclGrphx--SpCsp--span_cospans.pdf Graphic file (type pdf)
+
+<use InclGrphx--SpCsp--span_cospans.pdf>
+Package pdftex.def Info: InclGrphx--SpCsp--span_cospans.pdf used on input line 
+387.
+(pdftex.def)             Requested size: 63.57132pt x 63.57132pt.
+
+<InclGrphx--SpCsp--map_span_cospans.pdf, id=131, 70.26651pt x 70.26651pt>
+File: InclGrphx--SpCsp--map_span_cospans.pdf Graphic file (type pdf)
+
+<use InclGrphx--SpCsp--map_span_cospans.pdf>
+Package pdftex.def Info: InclGrphx--SpCsp--map_span_cospans.pdf used on input l
+ine 387.
+(pdftex.def)             Requested size: 70.26633pt x 70.26633pt.
+
+Overfull \hbox (9.53748pt too wide) in paragraph at lines 387--388
+[][] 
+ []
+
+<InclGrphx--slice--graph_S_zx.pdf, id=133, 136.19983pt x 60.67468pt>
+File: InclGrphx--slice--graph_S_zx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--graph_S_zx.pdf>
+Package pdftex.def Info: InclGrphx--slice--graph_S_zx.pdf used on input line 39
+8.
+(pdftex.def)             Requested size: 136.1995pt x 60.67451pt.
+ [3 <./InclGrphx--generater--wire.pdf> <./InclGrphx--generater--green_spider.pd
+f> <./InclGrphx--generater--red_spider.pdf> <./InclGrphx--generater--hadamard.p
+df> <./InclGrphx--generater--diamond.pdf> <./InclGrphx--SpCsp--span_cospans.pdf
+> <./InclGrphx--SpCsp--map_span_cospans.pdf> <./InclGrphx--slice--graph_S_zx.pd
+f>]) (./b--Catfying_zxCalc--zxCalc.tex
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+
+[4] <InclGrphx--morphism--zx_braiding.pdf, id=205, 20.7164pt x 17.87177pt>
+File: InclGrphx--morphism--zx_braiding.pdf Graphic file (type pdf)
+
+<use InclGrphx--morphism--zx_braiding.pdf>
+Package pdftex.def Info: InclGrphx--morphism--zx_braiding.pdf used on input lin
+e 184.
+(pdftex.def)             Requested size: 20.71634pt x 17.8717pt.
+
+<InclGrphx--morphism--zx_evaluation.pdf, id=206, 37.41579pt x 52.19098pt>
+File: InclGrphx--morphism--zx_evaluation.pdf Graphic file (type pdf)
+
+<use InclGrphx--morphism--zx_evaluation.pdf>
+Package pdftex.def Info: InclGrphx--morphism--zx_evaluation.pdf used on input l
+ine 188.
+(pdftex.def)             Requested size: 28.06175pt x 39.14313pt.
+
+<InclGrphx--morphism--zx_coevaluation.pdf, id=207, 37.41579pt x 52.19098pt>
+File: InclGrphx--morphism--zx_coevaluation.pdf Graphic file (type pdf)
+
+<use InclGrphx--morphism--zx_coevaluation.pdf>
+Package pdftex.def Info: InclGrphx--morphism--zx_coevaluation.pdf used on input
+ line 192.
+(pdftex.def)             Requested size: 28.06175pt x 39.14313pt.
+
+<InclGrphx--functor--dagger.pdf, id=208, 132.9788pt x 29.0154pt>
+File: InclGrphx--functor--dagger.pdf Graphic file (type pdf)
+
+<use InclGrphx--functor--dagger.pdf>
+Package pdftex.def Info: InclGrphx--functor--dagger.pdf used on input line 204.
+
+(pdftex.def)             Requested size: 132.97847pt x 29.01532pt.
+
+<InclGrphx--equation--spider.pdf, id=209, 178.49687pt x 55.21428pt>
+File: InclGrphx--equation--spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--spider.pdf>
+Package pdftex.def Info: InclGrphx--equation--spider.pdf used on input line 269
+.
+(pdftex.def)             Requested size: 178.49643pt x 55.21413pt.
+
+<InclGrphx--equation--bialgebra.pdf, id=210, 134.70325pt x 44.37077pt>
+File: InclGrphx--equation--bialgebra.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--bialgebra.pdf>
+Package pdftex.def Info: InclGrphx--equation--bialgebra.pdf used on input line 
+269.
+(pdftex.def)             Requested size: 134.7029pt x 44.37065pt.
+
+<InclGrphx--equation--copy.pdf, id=211, 79.57831pt x 34.05423pt>
+File: InclGrphx--equation--copy.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--copy.pdf>
+Package pdftex.def Info: InclGrphx--equation--copy.pdf used on input line 269.
+(pdftex.def)             Requested size: 79.57811pt x 34.05412pt.
+
+<InclGrphx--equation--pi_copy.pdf, id=212, 141.10918pt x 42.4004pt>
+File: InclGrphx--equation--pi_copy.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--pi_copy.pdf>
+Package pdftex.def Info: InclGrphx--equation--pi_copy.pdf used on input line 26
+9.
+(pdftex.def)             Requested size: 141.10883pt x 42.40028pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 269.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 269.
+
+<InclGrphx--equation--cup.pdf, id=213, 50.54785pt x 23.73769pt>
+File: InclGrphx--equation--cup.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--cup.pdf>
+Package pdftex.def Info: InclGrphx--equation--cup.pdf used on input line 269.
+(pdftex.def)             Requested size: 50.54771pt x 23.73761pt.
+
+<InclGrphx--equation--trivial_spider.pdf, id=214, 86.33354pt x 10.33461pt>
+File: InclGrphx--equation--trivial_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--trivial_spider.pdf>
+Package pdftex.def Info: InclGrphx--equation--trivial_spider.pdf used on input 
+line 269.
+(pdftex.def)             Requested size: 86.33333pt x 10.33458pt.
+
+<InclGrphx--equation--pi_commutation.pdf, id=215, 120.4771pt x 19.76985pt>
+File: InclGrphx--equation--pi_commutation.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--pi_commutation.pdf>
+Package pdftex.def Info: InclGrphx--equation--pi_commutation.pdf used on input 
+line 269.
+(pdftex.def)             Requested size: 120.47679pt x 19.76979pt.
+
+<InclGrphx--equation--color_change.pdf, id=216, 162.43385pt x 25.84958pt>
+File: InclGrphx--equation--color_change.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--color_change.pdf>
+Package pdftex.def Info: InclGrphx--equation--color_change.pdf used on input li
+ne 269.
+(pdftex.def)             Requested size: 162.43344pt x 25.8495pt.
+
+<InclGrphx--equation--loop.pdf, id=217, 55.01453pt x 16.33403pt>
+File: InclGrphx--equation--loop.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--loop.pdf>
+Package pdftex.def Info: InclGrphx--equation--loop.pdf used on input line 269.
+(pdftex.def)             Requested size: 55.01437pt x 16.33398pt.
+
+<InclGrphx--equation--diamond.pdf, id=218, 50.36516pt x 10.83447pt>
+File: InclGrphx--equation--diamond.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--diamond.pdf>
+Package pdftex.def Info: InclGrphx--equation--diamond.pdf used on input line 26
+9.
+(pdftex.def)             Requested size: 50.36502pt x 10.83443pt.
+
+Overfull \hbox (12.27496pt too wide) in paragraph at lines 269--270
+[][] 
+ []
+
+) (./c--Catfying_zxCalc--RewrtngOpenGraphs.tex [5 <./InclGrphx--morphism--zx_br
+aiding.pdf> <./InclGrphx--morphism--zx_evaluation.pdf> <./InclGrphx--morphism--
+zx_coevaluation.pdf> <./InclGrphx--functor--dagger.pdf>]
+<InclGrphx--example--open_graph_1.pdf, id=262, 83.11552pt x 53.09636pt>
+File: InclGrphx--example--open_graph_1.pdf Graphic file (type pdf)
+
+<use InclGrphx--example--open_graph_1.pdf>
+Package pdftex.def Info: InclGrphx--example--open_graph_1.pdf used on input lin
+e 39.
+(pdftex.def)             Requested size: 83.11531pt x 53.09622pt.
+
+<InclGrphx--example--open_graph_2.pdf, id=263, 71.734pt x 47.4051pt>
+File: InclGrphx--example--open_graph_2.pdf Graphic file (type pdf)
+
+<use InclGrphx--example--open_graph_2.pdf>
+Package pdftex.def Info: InclGrphx--example--open_graph_2.pdf used on input lin
+e 55.
+(pdftex.def)             Requested size: 71.73381pt x 47.40497pt.
+
+<InclGrphx--example--open_graph_3.pdf, id=264, 117.25908pt x 53.09636pt>
+File: InclGrphx--example--open_graph_3.pdf Graphic file (type pdf)
+
+<use InclGrphx--example--open_graph_3.pdf>
+Package pdftex.def Info: InclGrphx--example--open_graph_3.pdf used on input lin
+e 59.
+(pdftex.def)             Requested size: 117.25877pt x 53.09622pt.
+ [6 <./InclGrphx--equation--spider.pdf> <./InclGrphx--equation--bialgebra.pdf> 
+<./InclGrphx--equation--copy.pdf> <./InclGrphx--equation--pi_copy.pdf> <./InclG
+rphx--equation--cup.pdf> <./InclGrphx--equation--trivial_spider.pdf> <./InclGrp
+hx--equation--pi_commutation.pdf> <./InclGrphx--equation--color_change.pdf> <./
+InclGrphx--equation--loop.pdf> <./InclGrphx--equation--diamond.pdf> <./InclGrph
+x--example--open_graph_1.pdf> <./InclGrphx--example--open_graph_2.pdf>]
+Overfull \hbox (5.27422pt too wide) in paragraph at lines 135--149
+\OT1/ptm/m/it/10.95 cat-e-gory such that $\OMS/ztmcm/m/n/10.95 
+$ \OT1/ptm/m/it/10.95 pre-serves col-im-its. There is a (braided, sym-met-ric) 
+monoidal bi-cat-e-gory $[]$
+ []
+
+
+Overfull \hbox (15.35394pt too wide) in paragraph at lines 177--183
+[]\OT1/ptm/m/n/10.95 Recall that there are two ways to com-pose 2-cells in a bi
+-cat-e-gory. Hor-i-zon-tal com-po-si-tion in $[]\OT1/ztmcm/m/n/10.95 ([](\OT1/p
+tm/b/n/10.95 C\OT1/ztmcm/m/n/10.95 ))$
+ []
+
+
+<InclGrphx--SpCsp--horizontal_composition.pdf, id=355, 183.87495pt x 68.58324pt
+>
+File: InclGrphx--SpCsp--horizontal_composition.pdf Graphic file (type pdf)
+ <use InclGrphx--SpCsp--horizontal_composition.pdf>
+Package pdftex.def Info: InclGrphx--SpCsp--horizontal_composition.pdf used on i
+nput line 190.
+(pdftex.def)             Requested size: 156.29443pt x 58.29602pt.
+
+<InclGrphx--SpCsp--vertical_composition.pdf, id=356, 172.49445pt x 111.64009pt>
+File: InclGrphx--SpCsp--vertical_composition.pdf Graphic file (type pdf)
+<use InclGrphx--SpCsp--vertical_composition.pdf>
+Package pdftex.def Info: InclGrphx--SpCsp--vertical_composition.pdf used on inp
+ut line 190.
+(pdftex.def)             Requested size: 146.62094pt x 94.89452pt.
+ [7 <./InclGrphx--example--open_graph_3.pdf>]) (./d--Catfying_zxCalc--OpnGphsSz
+x.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+File: InclGrphx--slice--graph_S_zx.pdf Graphic file (type pdf)
+<use InclGrphx--slice--graph_S_zx.pdf>
+Package pdftex.def Info: InclGrphx--slice--graph_S_zx.pdf used on input line 74
+.
+(pdftex.def)             Requested size: 136.1995pt x 60.67451pt.
+ [8 <./InclGrphx--SpCsp--horizontal_composition.pdf> <./InclGrphx--SpCsp--verti
+cal_composition.pdf>]
+<InclGrphx--slice--wire_over_Szx.pdf, id=424, 77.7053pt x 50.7215pt>
+File: InclGrphx--slice--wire_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--wire_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--slice--wire_over_Szx.pdf used on input line
+ 97.
+(pdftex.def)             Requested size: 77.70511pt x 50.72136pt.
+
+<InclGrphx--slice--Hadamard_over_Szx.pdf, id=425, 77.7053pt x 59.88474pt>
+File: InclGrphx--slice--Hadamard_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--Hadamard_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--slice--Hadamard_over_Szx.pdf used on input 
+line 102.
+(pdftex.def)             Requested size: 77.70511pt x 59.88458pt.
+
+<InclGrphx--slice--diamond_over_Szx.pdf, id=426, 39.25766pt x 45.43073pt>
+File: InclGrphx--slice--diamond_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--diamond_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--slice--diamond_over_Szx.pdf used on input l
+ine 107.
+(pdftex.def)             Requested size: 39.25754pt x 45.4306pt.
+
+<InclGrphx--slice--green_spider_over_Szx.pdf, id=427, 82.03648pt x 89.86273pt>
+File: InclGrphx--slice--green_spider_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--green_spider_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--slice--green_spider_over_Szx.pdf used on in
+put line 113.
+(pdftex.def)             Requested size: 82.03627pt x 89.8625pt.
+
+<InclGrphx--slice--red_spider_over_Szx.pdf, id=428, 81.73236pt x 93.66695pt>
+File: InclGrphx--slice--red_spider_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--slice--red_spider_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--slice--red_spider_over_Szx.pdf used on inpu
+t line 118.
+(pdftex.def)             Requested size: 81.73215pt x 93.6667pt.
+
+<InclGrphx--example--graph_over_Szx.pdf, id=429, 253.14073pt x 126.16736pt>
+File: InclGrphx--example--graph_over_Szx.pdf Graphic file (type pdf)
+
+<use InclGrphx--example--graph_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--example--graph_over_Szx.pdf used on input l
+ine 162.
+(pdftex.def)             Requested size: 253.1401pt x 126.16702pt.
+
+<InclGrphx--example--zx_morphism_as_graph_over_Szx.pdf, id=430, 57.88124pt x 10
+.22821pt>
+File: InclGrphx--example--zx_morphism_as_graph_over_Szx.pdf Graphic file (type 
+pdf)
+ <use InclGrphx--example--zx_morphism_as_graph_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--example--zx_morphism_as_graph_over_Szx.pdf 
+used on input line 166.
+(pdftex.def)             Requested size: 57.88109pt x 10.22818pt.
+ [9 <./InclGrphx--slice--wire_over_Szx.pdf> <./InclGrphx--slice--Hadamard_over_
+Szx.pdf> <./InclGrphx--slice--diamond_over_Szx.pdf> <./InclGrphx--slice--green_
+spider_over_Szx.pdf> <./InclGrphx--slice--red_spider_over_Szx.pdf> <./InclGrphx
+--example--graph_over_Szx.pdf> <./InclGrphx--example--zx_morphism_as_graph_over
+_Szx.pdf>]
+<InclGrphx--example--open_graph_over_Szx.pdf, id=528, 358.41603pt x 120.4771pt>
+File: InclGrphx--example--open_graph_over_Szx.pdf Graphic file (type pdf)
+<use InclGrphx--example--open_graph_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--example--open_graph_over_Szx.pdf used on in
+put line 285.
+(pdftex.def)             Requested size: 322.57146pt x 108.42838pt.
+
+<InclGrphx--example--zx_morphism_as_open_graph_over_Szx.pdf, id=529, 142.54857p
+t x 20.20448pt>
+File: InclGrphx--example--zx_morphism_as_open_graph_over_Szx.pdf Graphic file (
+type pdf)
+
+<use InclGrphx--example--zx_morphism_as_open_graph_over_Szx.pdf>
+Package pdftex.def Info: InclGrphx--example--zx_morphism_as_open_graph_over_Szx
+.pdf used on input line 292.
+(pdftex.def)             Requested size: 142.5482pt x 20.2044pt.
+ [10 <./InclGrphx--example--open_graph_over_Szx.pdf> <./InclGrphx--example--zx_
+morphism_as_open_graph_over_Szx.pdf>]) (./e--Catfying_zxCalc--CatfcnZx.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+<InclGrphx--1cell--zx_wire.pdf, id=562, 51.4994pt x 19.71666pt>
+File: InclGrphx--1cell--zx_wire.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_wire.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_wire.pdf used on input line 59.
+(pdftex.def)             Requested size: 51.49927pt x 19.7166pt.
+
+<InclGrphx--1cell--zx_hadamard.pdf, id=563, 51.4994pt x 20.22154pt>
+File: InclGrphx--1cell--zx_hadamard.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_hadamard.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_hadamard.pdf used on input line 5
+9.
+(pdftex.def)             Requested size: 51.49927pt x 20.22148pt.
+
+<InclGrphx--1cell--zx_diamond.pdf, id=564, 28.73737pt x 20.50862pt>
+File: InclGrphx--1cell--zx_diamond.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_diamond.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_diamond.pdf used on input line 59
+.
+(pdftex.def)             Requested size: 28.73729pt x 20.50856pt.
+
+<InclGrphx--1cell--zx_green_spider.pdf, id=565, 74.1711pt x 37.17288pt>
+File: InclGrphx--1cell--zx_green_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_green_spider.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_green_spider.pdf used on input li
+ne 59.
+(pdftex.def)             Requested size: 74.17091pt x 37.17278pt.
+
+<InclGrphx--1cell--zx_red_spider.pdf, id=566, 74.1711pt x 37.17288pt>
+File: InclGrphx--1cell--zx_red_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_red_spider.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_red_spider.pdf used on input line
+ 59.
+(pdftex.def)             Requested size: 74.17091pt x 37.17278pt.
+
+Overfull \hbox (9.53748pt too wide) in paragraph at lines 59--61
+[][] 
+ []
+
+<InclGrphx--2cell--wire_is_identity.pdf, id=568, 142.4562pt x 29.36772pt>
+File: InclGrphx--2cell--wire_is_identity.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--wire_is_identity.pdf>
+Package pdftex.def Info: InclGrphx--2cell--wire_is_identity.pdf used on input l
+ine 85.
+(pdftex.def)             Requested size: 142.45586pt x 29.36763pt.
+
+<InclGrphx--2cell--spider.pdf, id=569, 326.63431pt x 73.7174pt>
+File: InclGrphx--2cell--spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--spider.pdf>
+Package pdftex.def Info: InclGrphx--2cell--spider.pdf used on input line 183.
+(pdftex.def)             Requested size: 244.97511pt x 55.28792pt.
+
+<InclGrphx--2cell--bialgebra.pdf, id=570, 210.74234pt x 58.36906pt>
+File: InclGrphx--2cell--bialgebra.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--bialgebra.pdf>
+Package pdftex.def Info: InclGrphx--2cell--bialgebra.pdf used on input line 183
+.
+(pdftex.def)             Requested size: 158.05637pt x 43.77667pt.
+
+<InclGrphx--2cell--cup.pdf, id=571, 139.70293pt x 40.74924pt>
+File: InclGrphx--2cell--cup.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--cup.pdf>
+Package pdftex.def Info: InclGrphx--2cell--cup.pdf used on input line 183.
+(pdftex.def)             Requested size: 104.77693pt x 30.56184pt.
+
+<InclGrphx--2cell--copy.pdf, id=572, 176.69212pt x 46.4395pt>
+File: InclGrphx--2cell--copy.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--copy.pdf>
+Package pdftex.def Info: InclGrphx--2cell--copy.pdf used on input line 183.
+(pdftex.def)             Requested size: 132.51875pt x 34.82953pt.
+
+<InclGrphx--2cell--trivial_spider.pdf, id=573, 142.54857pt x 32.7614pt>
+File: InclGrphx--2cell--trivial_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--trivial_spider.pdf>
+Package pdftex.def Info: InclGrphx--2cell--trivial_spider.pdf used on input lin
+e 183.
+(pdftex.def)             Requested size: 106.91115pt x 24.57097pt.
+
+<InclGrphx--2cell--pi_copy.pdf, id=574, 229.70416pt x 46.4395pt>
+File: InclGrphx--2cell--pi_copy.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--pi_copy.pdf>
+Package pdftex.def Info: InclGrphx--2cell--pi_copy.pdf used on input line 183.
+(pdftex.def)             Requested size: 172.2777pt x 34.82953pt.
+
+<InclGrphx--2cell--pi_commutation.pdf, id=575, 216.52594pt x 33.65976pt>
+File: InclGrphx--2cell--pi_commutation.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--pi_commutation.pdf>
+Package pdftex.def Info: InclGrphx--2cell--pi_commutation.pdf used on input lin
+e 183.
+(pdftex.def)             Requested size: 162.39404pt x 25.24475pt.
+
+<InclGrphx--2cell--color_change.pdf, id=576, 314.0332pt x 39.93419pt>
+File: InclGrphx--2cell--color_change.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--color_change.pdf>
+Package pdftex.def Info: InclGrphx--2cell--color_change.pdf used on input line 
+183.
+(pdftex.def)             Requested size: 235.5243pt x 29.95056pt.
+
+<InclGrphx--2cell--loop.pdf, id=577, 142.54857pt x 37.90361pt>
+File: InclGrphx--2cell--loop.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--loop.pdf>
+Package pdftex.def Info: InclGrphx--2cell--loop.pdf used on input line 183.
+(pdftex.def)             Requested size: 106.91115pt x 28.42763pt.
+
+<InclGrphx--2cell--diamond.pdf, id=578, 142.54857pt x 37.90361pt>
+File: InclGrphx--2cell--diamond.pdf Graphic file (type pdf)
+
+<use InclGrphx--2cell--diamond.pdf>
+Package pdftex.def Info: InclGrphx--2cell--diamond.pdf used on input line 183.
+(pdftex.def)             Requested size: 106.91115pt x 28.42763pt.
+
+Overfull \hbox (9.53748pt too wide) in paragraph at lines 183--184
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.17581pt too wide) in paragraph at lines 190--195
+[]\OT1/ptm/b/n/10.95 Definition 5.1. []\OT1/ptm/m/n/10.95 De-fine $[]$ to be th
+e sym-met-ric monoidal and com-pact closed sub-bicategory of $[]$
+ []
+
+[11 <./InclGrphx--1cell--zx_wire.pdf> <./InclGrphx--1cell--zx_hadamard.pdf> <./
+InclGrphx--1cell--zx_diamond.pdf> <./InclGrphx--1cell--zx_green_spider.pdf> <./
+InclGrphx--1cell--zx_red_spider.pdf> <./InclGrphx--2cell--wire_is_identity.pdf>
+] <InclGrphx--1cell--zx_braiding.pdf, id=623, 75.26619pt x 62.00264pt>
+File: InclGrphx--1cell--zx_braiding.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_braiding.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_braiding.pdf used on input line 2
+18.
+(pdftex.def)             Requested size: 56.4495pt x 46.50185pt.
+
+<InclGrphx--1cell--zx_evaluation.pdf, id=624, 85.9742pt x 67.69391pt>
+File: InclGrphx--1cell--zx_evaluation.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_evaluation.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_evaluation.pdf used on input line
+ 218.
+(pdftex.def)             Requested size: 64.48048pt x 50.7703pt.
+
+<InclGrphx--1cell--zx_coevaluation.pdf, id=625, 85.9742pt x 64.84828pt>
+File: InclGrphx--1cell--zx_coevaluation.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_coevaluation.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_coevaluation.pdf used on input li
+ne 218.
+(pdftex.def)             Requested size: 64.48048pt x 48.63608pt.
+
+<InclGrphx--example--composing_spiders.pdf, id=627, 281.97647pt x 49.9205pt>
+File: InclGrphx--example--composing_spiders.pdf Graphic file (type pdf)
+
+<use InclGrphx--example--composing_spiders.pdf>
+Package pdftex.def Info: InclGrphx--example--composing_spiders.pdf used on inpu
+t line 231.
+(pdftex.def)             Requested size: 281.97577pt x 49.92036pt.
+ [12 <./InclGrphx--2cell--spider.pdf> <./InclGrphx--2cell--bialgebra.pdf> <./In
+clGrphx--2cell--cup.pdf> <./InclGrphx--2cell--copy.pdf> <./InclGrphx--2cell--tr
+ivial_spider.pdf> <./InclGrphx--2cell--pi_copy.pdf> <./InclGrphx--2cell--pi_com
+mutation.pdf> <./InclGrphx--2cell--color_change.pdf> <./InclGrphx--2cell--loop.
+pdf> <./InclGrphx--2cell--diamond.pdf> <./InclGrphx--1cell--zx_braiding.pdf> <.
+/InclGrphx--1cell--zx_evaluation.pdf> <./InclGrphx--1cell--zx_coevaluation.pdf>
+]
+<InclGrphx--equation--tensor_spiders.pdf, id=746, 248.59576pt x 72.32019pt>
+File: InclGrphx--equation--tensor_spiders.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--tensor_spiders.pdf>
+Package pdftex.def Info: InclGrphx--equation--tensor_spiders.pdf used on input 
+line 236.
+(pdftex.def)             Requested size: 248.59515pt x 72.31999pt.
+
+<InclGrphx--functor--dagger_decat_zx_spider_green.pdf, id=747, 144.61127pt x 39
+.70433pt>
+File: InclGrphx--functor--dagger_decat_zx_spider_green.pdf Graphic file (type p
+df)
+ <use InclGrphx--functor--dagger_decat_zx_spider_green.pdf>
+Package pdftex.def Info: InclGrphx--functor--dagger_decat_zx_spider_green.pdf u
+sed on input line 273.
+(pdftex.def)             Requested size: 144.6109pt x 39.70422pt.
+
+<InclGrphx--functor--dagger_decat_zx_spider_red.pdf, id=748, 144.61127pt x 40.7
+5928pt>
+File: InclGrphx--functor--dagger_decat_zx_spider_red.pdf Graphic file (type pdf
+)
+ <use InclGrphx--functor--dagger_decat_zx_spider_red.pdf>
+Package pdftex.def Info: InclGrphx--functor--dagger_decat_zx_spider_red.pdf use
+d on input line 279.
+(pdftex.def)             Requested size: 144.6109pt x 40.75916pt.
+
+<InclGrphx--equation--decat_zx_snake.pdf, id=750, 376.55179pt x 63.5715pt>
+File: InclGrphx--equation--decat_zx_snake.pdf Graphic file (type pdf)
+
+<use InclGrphx--equation--decat_zx_snake.pdf>
+Package pdftex.def Info: InclGrphx--equation--decat_zx_snake.pdf used on input 
+line 293.
+(pdftex.def)             Requested size: 282.41313pt x 47.67848pt.
+File: InclGrphx--generater--green_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--green_spider.pdf>
+Package pdftex.def Info: InclGrphx--generater--green_spider.pdf used on input l
+ine 315.
+(pdftex.def)             Requested size: 62.84863pt x 25.45pt.
+File: InclGrphx--1cell--zx_green_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_green_spider.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_green_spider.pdf used on input li
+ne 319.
+(pdftex.def)             Requested size: 74.17091pt x 37.17278pt.
+File: InclGrphx--generater--red_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--generater--red_spider.pdf>
+Package pdftex.def Info: InclGrphx--generater--red_spider.pdf used on input lin
+e 323.
+(pdftex.def)             Requested size: 62.84863pt x 27.22562pt.
+File: InclGrphx--1cell--zx_red_spider.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_red_spider.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_red_spider.pdf used on input line
+ 327.
+(pdftex.def)             Requested size: 74.17091pt x 37.17278pt.
+File: InclGrphx--generater--wire.pdf Graphic file (type pdf)
+ <use InclGrphx--generater--wire.pdf>
+Package pdftex.def Info: InclGrphx--generater--wire.pdf used on input line 332.
+
+(pdftex.def)             Requested size: 35.1181pt x 12.35611pt.
+File: InclGrphx--1cell--zx_wire.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_wire.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_wire.pdf used on input line 336.
+(pdftex.def)             Requested size: 51.49927pt x 19.7166pt.
+File: InclGrphx--generater--diamond.pdf Graphic file (type pdf)
+ <use InclGrphx--generater--diamond.pdf>
+Package pdftex.def Info: InclGrphx--generater--diamond.pdf used on input line 3
+40.
+(pdftex.def)             Requested size: 10.83443pt x 10.83443pt.
+File: InclGrphx--1cell--zx_diamond.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_diamond.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_diamond.pdf used on input line 34
+4.
+(pdftex.def)             Requested size: 28.73729pt x 20.50856pt.
+
+Overfull \hbox (1.42377pt too wide) in paragraph at lines 344--345
+[][] 
+ []
+
+File: InclGrphx--generater--hadamard.pdf Graphic file (type pdf)
+<use InclGrphx--generater--hadamard.pdf>
+Package pdftex.def Info: InclGrphx--generater--hadamard.pdf used on input line 
+348.
+(pdftex.def)             Requested size: 40.80934pt x 7.46585pt.
+File: InclGrphx--1cell--zx_hadamard.pdf Graphic file (type pdf)
+
+<use InclGrphx--1cell--zx_hadamard.pdf>
+Package pdftex.def Info: InclGrphx--1cell--zx_hadamard.pdf used on input line 3
+52.
+(pdftex.def)             Requested size: 51.49927pt x 20.22148pt.
+
+Overfull \hbox (5.97209pt too wide) in paragraph at lines 352--353
+[][] 
+ []
+
+[13 <./InclGrphx--example--composing_spiders.pdf> <./InclGrphx--equation--tenso
+r_spiders.pdf> <./InclGrphx--functor--dagger_decat_zx_spider_green.pdf> <./Incl
+Grphx--functor--dagger_decat_zx_spider_red.pdf> <./InclGrphx--equation--decat_z
+x_snake.pdf>]) (./f--Catfying_zxCalc--Conclusion.tex)
+(./g--Catfying_zxCalc--SmccBicat.tex [14] [15] [16] [17] [18])
+(./1--Catfying_zxCalc--Master.bbl [19]
+Underfull \hbox (badness 2726) in paragraph at lines 170--176
+[]\OT1/ptm/m/n/10 V. Danos, E. Kashefi & P. Panan-gaden (2007): \OT1/ptm/m/it/1
+0 The mea-sure-ment cal-cu-lus\OT1/ptm/m/n/10 .  \OT1/ptm/m/sl/10 J. ACM \OT1/p
+tm/m/n/10 54(2),
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 268--273
+[]\OT1/ptm/m/n/10 Lucas L. Dixon, R. Dun-can & A. Kissinger (2010): \OT1/ptm/m/
+sl/10 Elec-tron. Proc. Theor. Com-put. Sci. \OT1/ptm/m/n/10 26,
+ []
+
+[20]) [21]
+\pages=\write5
+\openout5 = `1--Catfying_zxCalc--Master.pag'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
+ (./1--Catfying_zxCalc--Master.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `1--Catfying_zxCalc--Master.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 351EE03E0D6A337829FF867B5858A8EE;399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+ ) 
+Here is how much of TeX's memory you used:
+ 21874 strings out of 493033
+ 441711 string characters out of 6137754
+ 574995 words of memory out of 5000000
+ 24802 multiletter control sequences out of 15000+600000
+ 68567 words of font info for 160 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,14n,71p,968b,875s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy9.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt9.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+><c:/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2015/t
+exmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2015/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/
+2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 1--Catfying_zxCalc--Master.pdf (21 pages, 413014 bytes).
+PDF statistics:
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 923 compressed objects within 10 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,44 @@
+\documentclass[tikz, preview]{standalone}
+
+\usepackage{tikz}
+\usepackage[all,2cell]{xy}
+\usetikzlibrary{matrix,arrows,shapes,decorations.markings}
+\definecolor{rewritecolor}{rgb}{0,.9,1}
+\tikzset{rewritenode/.style={shape=circle,fill=rewritecolor,scale=0.25,font=\Huge}}
+\tikzset{RWopen/.style={shape=circle,draw=black,thick,fill=white,scale=0.5,font=\Huge}}
+\tikzset{RWclosed/.style={shape=circle,thick,fill=black,scale=0.5,font=\Huge}}
+\tikzset{CDnode/.style={shape=circle,fill=white,scale=.5}}
+\tikzset{zxgreen/.style={shape=circle,draw,thick,fill=green}}
+\tikzset{zxred/.style={shape=circle,draw,thick,fill=red}}
+\tikzset{zxyellow/.style={shape=rectangle,draw,thick,fill=yellow}}
+\tikzset{zxdiamond/.style={shape=diamond,fill=black,inner sep=2.75pt}}
+\tikzset{->-/.style={decoration={markings,mark=at position .5 with {\arrow{>}}},postaction={decorate}}}
+
+\begin{document}
+
+\[
+\begin{tikzpicture}
+	%
+	%
+	%
+	\node (v2) at (0,0) {$=$};
+	%
+	%
+	%
+	\begin{scope}[shift={(0.3,0.3)}]
+	\node [zxgreen] (v1) at (-1.3,-0.3) {};
+	\node [zxred] (v5) at (-0.7,-0.3) {};
+	\draw  (v5) edge [thick] (v1);
+	\end{scope}
+	%
+	%
+	%
+	\begin{scope}[shift={(0.3,0.3)}]
+	\node [zxdiamond] (v10) at (0.1,-0.3) {};
+	\end{scope}
+\end{tikzpicture}
+\]
+
+
+
+\end{document}

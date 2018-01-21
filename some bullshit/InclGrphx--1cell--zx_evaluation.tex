@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+\node [zxopen] (1) at (0,-0.1) {};
+\node [zxopen] (2) at (0,1.2) {};
+\node [zxopen] (3) at (0,0.2) {};
+\node [zxopen] (4) at (0,0.9) {};
+\node [zxopen] (5) at (0.7,0.5) {};
+\node [zxopen] (6) at (1.2,0.5) {};
+\node at (0,0.7) {$\vdots$};
+%
+\draw [->-]  (4) to [out=0,in=90] (5);
+\draw [->-] (3) to [out=0,in=-90] (5);
+\draw [->-] (1) to [out=0,in=-90] (6);
+\draw [->-] (2) to [out=0,in=90] (6);
+%
+\draw[decoration={brace,mirror,raise=2pt},decorate]
+(2.north west) -- node [left=2pt] {\scriptsize $2m$} (1.south west); 
+\node at (0,-0.6) {$2m$};
+\node at (1.8,-0.6) {$0$};
+\end{tikzpicture}

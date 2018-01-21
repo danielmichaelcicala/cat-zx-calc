@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\node (v1) at (1,1) {$\mathbf{T}$};
+\node (v2) at (1,-1) {$\mathbf{S}$};
+\draw [->]  (v1) 
+	edge [out=-45,in=45] 
+	node [right] {\scriptsize $\Gamma$}
+	(v2);
+\draw [->] (v2) 
+	edge [out=135,in=-135] 
+	node [left] {\scriptsize $D$}
+	(v1);
+\node at (1,0) {$\dashv$};
+\end{tikzpicture}

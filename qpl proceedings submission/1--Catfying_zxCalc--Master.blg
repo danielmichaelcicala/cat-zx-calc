@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 1--Catfying_zxCalc--Master.aux
+The style file: eptcs.bst
+Database file #1: 3--Catfying_zxCalc--Bibliography.bib
+Warning--empty pages in Corradini_AlgApprGraphTrans
+Warning--empty title in Dixon_OpenGraphs
+You've used 40 entries,
+            2701 wiz_defined-function locations,
+            871 strings with 12719 characters,
+and the built_in function-call counts, 18106 in all, are:
+= -- 1219
+> -- 495
+< -- 15
++ -- 216
+- -- 166
+* -- 2245
+:= -- 2179
+add.period$ -- 84
+call.type$ -- 40
+change.case$ -- 183
+chr.to.int$ -- 0
+cite$ -- 82
+duplicate$ -- 1535
+empty$ -- 1604
+format.name$ -- 194
+if$ -- 3543
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 339
+newline$ -- 216
+num.names$ -- 80
+pop$ -- 350
+preamble$ -- 1
+purify$ -- 163
+quote$ -- 0
+skip$ -- 447
+stack$ -- 0
+substring$ -- 454
+swap$ -- 1395
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 196
+warning$ -- 2
+while$ -- 98
+width$ -- 42
+write$ -- 468
+(There were 2 warnings)

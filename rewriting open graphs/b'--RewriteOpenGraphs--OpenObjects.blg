@@ -1,0 +1,5 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'b'--RewriteOpenGraphs--OpenObjects.blg'
+[138] biber-MSWIN32:287> INFO - === 
+[920] Utils.pm:163> ERROR - Cannot find control file 'b'--RewriteOpenGraphs--OpenObjects.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[920] Biber.pm:112> INFO - ERRORS: 1

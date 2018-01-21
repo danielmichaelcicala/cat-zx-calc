@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+
+% middle stuff
+\node (v1) at (0,0) {$L$};
+\node (v3) at (1,0) {$K$};
+\node (v5) at (2,0) {$R$};
+\node (v6) at (0,-1) {$G$};
+\node (v7) at (1,-1) {$D$};
+
+% top interface
+\node (v2) at (-1,1) {$N(I)$};
+\node (v4) at (3,1) {$N(O)$};
+\draw [->] (v4) edge [out=180,in=90] (v1);
+\draw [->] (v4) edge [out=180,in=90] (v3);
+\draw [->] (v4) edge [out=180,in=90] (v5);
+\draw [line width=1.75pt,white] (v2) edge [out=0,in=90] (v1);
+\draw [line width=2pt,white] (v2) edge [out=0,in=90] (v3);
+\draw [line width=2pt,white] (v2) edge [out=0,in=90] (v5);
+\draw [->] (v2) edge [out=0,in=90] (v1);
+\draw [->] (v2) edge [out=0,in=90] (v3);
+\draw [->] (v2) edge [out=0,in=90] (v5);
+\draw [->]  
+	(v3) edge 
+	node [below,pos=0.5] {\scriptsize $\ell$} 
+	(v1);
+\draw [->] 
+	(v3) edge 
+	node [below,pos=0.5] {\scriptsize $r$} 
+	(v5);
+\draw [->] (v1) edge
+	node [left,pos=0.5] {\scriptsize $f$} 
+	(v6);
+\draw [->] (v3) edge 
+	node [right,pos=0.5] {\scriptsize $f'$} 
+	(v7);
+\draw [->] (v7) edge 
+	node [below,pos=0.5] {\scriptsize $\ell'$} 
+	(v6);
+% corner
+\node (v8) at (0.1,-0.7) {};
+\node (v9) at (0.3,-0.7) {};
+\node (v10) at (0.3,-0.9) {};
+\draw  (v8.center) edge (v9.center);
+\draw  (v9.center) edge (v10.center);
+% bottom interface
+\node (v11) at (-1,-2) {$N(I')$};
+\node (v12) at (3,-2) {$N(O')$};
+\draw [->] (v11) edge [out=0,in=-90] (v6);
+\draw [->] (v11) edge [out=0,in=-90] (v7);
+\draw [line width=2pt,white] (v12) edge [out=180,in=-90] (v7);
+\draw [line width=2pt,white] (v12) edge [out=180,in=-90] (v6);
+\draw [->] (v12) edge [out=180,in=-90] (v7);
+\draw [->] (v12) edge [out=180,in=-90] (v6);
+\draw [->] (v2) edge (v11);
+\draw [->] (v4) edge (v12);
+\end{tikzpicture}

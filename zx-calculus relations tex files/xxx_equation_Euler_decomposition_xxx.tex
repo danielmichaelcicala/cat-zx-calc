@@ -1,0 +1,56 @@
+\documentclass[tikz, preview]{standalone}
+
+\usepackage{tikz}
+\usepackage[all,2cell]{xy}
+\usetikzlibrary{matrix,arrows,shapes,decorations.markings}
+\definecolor{rewritecolor}{rgb}{0,.9,1}
+\tikzset{rewritenode/.style={shape=circle,fill=rewritecolor,scale=0.25,font=\Huge}}
+\tikzset{RWopen/.style={shape=circle,draw=black,fill=white,scale=0.5,font=\Huge}}
+\tikzset{RWclosed/.style={shape=circle,fill=black,scale=0.5,font=\Huge}}
+\tikzset{CDnode/.style={shape=circle,fill=white,scale=.5}}
+\tikzset{zxgreen/.style={shape=circle,draw,thick,fill=green}}
+\tikzset{zxred/.style={shape=circle,draw,thick,fill=red}}
+\tikzset{zxyellow/.style={shape=rectangle,draw,thick,fill=yellow}}
+\tikzset{zxdiamond/.style={shape=diamond,fill=black,inner sep=2.75pt}}
+\tikzset{->-/.style={decoration={markings,mark=at position .5 with {\arrow{>}}},postaction={decorate}}}
+
+\begin{document}
+
+\[
+\begin{tikzpicture}
+	\node (equals) at (0,0) {$=$};
+	%
+	\begin{scope}
+	\node [zxgreen] (v1) at (-1.1,0.6) {};
+	\node [zxred] (v2) at (-0.5,0.6) {};
+	\node [zxred] (v3) at (-0.5,0) {};
+	\node [zxgreen]  (v4) at (-1.1,0) {};
+	\node (v5) at (-1.4,-0.6) {};
+	\node [zxyellow] (v6) at (-0.8,-0.6) {};
+	\node (v7) at (-0.2,-0.6) {};
+	\draw  (v1) edge [thick] (v2);
+	\draw  (v3) edge [thick] (v4);
+	\draw  (v5) edge [thick] (v6);
+	\draw  (v6) edge [thick] (v7);
+	\end{scope}
+	%
+	\begin{scope}
+	\node [zxgreen,label={[shift={(-0.1,-0.1)}]\scriptsize $-\pi/2$}] (v8) at (1.1,0.3) {};
+	\node  [zxred,label={[shift={(0.1,-0.1)}]\scriptsize $-\pi/2$}] (v9) at (1.7,0.3) {};
+	\node (v10) at (0.2,-0.3) {};
+	\node [zxgreen,label={[shift={(-0.2,-0.77)}]\scriptsize $\pi/2$}] (v11) at (0.8,-0.3) {};
+	\node [zxred,label={[shift={(0,-0.77)}]\scriptsize $\pi/2$}] (v12) at (1.4,-0.3) {};
+	\node [zxgreen,label={[shift={(0.2,-0.77)}]\scriptsize $\pi/2$}] (v13) at (2,-0.3) {};
+	\node (v14) at (2.6,-0.3) {};
+	\draw  (v8) edge [thick] (v9);
+	\draw  (v10) edge [thick] (v11);
+	\draw  (v11) edge [thick] (v12);
+	\draw  (v12) edge [thick] (v13);
+	\draw  (v13) edge [thick] (v14);
+	\end{scope}
+\end{tikzpicture}
+\]
+
+
+
+\end{document}

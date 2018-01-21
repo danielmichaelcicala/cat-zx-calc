@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+% right leg
+\begin{scope}[shift={(0.6,-0.2)}]
+\node at (0.3,0.6) {\scriptsize $a$};
+\node at (0.3,0.4) {$\bullet$};
+\node at (0.3,-0.6) {\scriptsize $b$};
+\node at (0.3,-0.4) {$\bullet$};
+\draw [color=gray,rounded corners]  
+	(0.1,0.8) rectangle (0.5,-0.8);
+\end{scope}
+% center
+\begin{scope}
+\node at (2,0.4) {\scriptsize $a$};
+\node (v1) at (2,0.2) {$\bullet$};
+\node at (2,-0.8) {\scriptsize $b$};
+\node (v3) at (2,-0.6) {$\bullet$};
+\node at (2.8,0) {\scriptsize $c$};
+\node (v2) at (2.7,-0.2) {$\bullet$};
+\node at (3.4,0) {\scriptsize $d$};
+\node (v4) at (3.4,-0.2) {$\bullet$};
+\draw [thick,->-]  
+	(v1.center) to [out=0,in=90] (v2.center);
+\draw [thick,->-] 
+	(v3.center) to [out=0,in=-90] (v2.center);
+\draw [thick,->-] 
+	(v2.center) to (v4.center);
+\draw [color=gray,rounded corners]  
+	(1.8,0.6) rectangle (3.6,-1);
+\end{scope}
+% left leg
+\begin{scope}[shift={(4.1,-0.2)}]
+\node at (0.3,0.2) {\scriptsize $d$};
+\node at (0.3,0) {$\bullet$};
+\draw [color=gray,rounded corners]  
+	(0.1,0.8) rectangle (0.5,-0.8);
+\end{scope}
+% graph morphisms
+\node (v5) at (1.1,-0.2) {};
+\node (v6) at (1.8,-0.2) {};
+\node (v7) at (4.2,-0.2) {};
+\node (v8) at (3.6,-0.2) {};
+\draw [->]  (v5) edge (v6);
+\draw [->] (v7) edge (v8);
+\end{tikzpicture}

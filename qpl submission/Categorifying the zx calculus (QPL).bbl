@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+\providecommand{\bibitemdeclare}[2]{}
+\providecommand{\surnamestart}{}
+\providecommand{\surnameend}{}
+\providecommand{\urlprefix}{Available at }
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{\texttt{#2}}
+\providecommand{\urlalt}[2]{\href{#1}{#2}}
+\providecommand{\doi}[1]{doi:\urlalt{http://dx.doi.org/#1}{#1}}
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitemdeclare{inproceedings}{AbramCoekeCatSemQuanProt}
+\bibitem{AbramCoekeCatSemQuanProt}
+\bibinfo{author}{Samson \surnamestart Abramsky\surnameend} \&
+  \bibinfo{author}{Bob \surnamestart Coecke\surnameend} (\bibinfo{year}{2004}):
+  \emph{\bibinfo{title}{A categorical semantics of quantum protocols}}.
+\newblock In: {\sl \bibinfo{booktitle}{Logic in Computer Science, 2004.
+  Proceedings of the 19th Annual IEEE Symposium on}},
+  \bibinfo{organization}{IEEE}, pp. \bibinfo{pages}{415--425}.
+
+\bibitemdeclare{article}{CicalaSpansOfCospan}
+\bibitem{CicalaSpansOfCospan}
+\bibinfo{author}{D.~\surnamestart {Cicala}\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Spans of cospans}}.
+\newblock {\sl \bibinfo{journal}{arXiv: 1611.07886}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1611.07886}.
+
+\bibitemdeclare{article}{CicalaCatZxCalc}
+\bibitem{CicalaCatZxCalc}
+\bibinfo{author}{D.~\surnamestart {Cicala}\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{Categorifying the zx{-}calculus}}.
+\newblock {\sl \bibinfo{journal}{arXiv:1704.07034}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1704.07034}.
+
+\bibitemdeclare{article}{CicalaCourserBicatsSpanCospans}
+\bibitem{CicalaCourserBicatsSpanCospans}
+\bibinfo{author}{D.~\surnamestart {Cicala}\surnameend} \&
+  \bibinfo{author}{K.~\surnamestart Courser\surnameend}:
+  \emph{\bibinfo{title}{Bicategories of Spans and Cospans}}.
+\newblock {\sl \bibinfo{journal}{In preperation}}.
+
+\bibitemdeclare{article}{CoeckeDuncanInterQuanObs}
+\bibitem{CoeckeDuncanInterQuanObs}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend} (\bibinfo{year}{2011}):
+  \emph{\bibinfo{title}{Interacting quantum observables: categorical algebra
+  and diagrammatics}}.
+\newblock {\sl \bibinfo{journal}{New Journal of Physics}}
+  \bibinfo{volume}{13}(\bibinfo{number}{4}), p. \bibinfo{pages}{043016}.
+\newblock \urlprefix\url{http://stacks.iop.org/1367-2630/13/i=4/a=043016}.
+
+\end{thebibliography}

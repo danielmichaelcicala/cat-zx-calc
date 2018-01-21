@@ -1,0 +1,256 @@
+%
+% 	REWRITING OPEN GRAPHS
+%	open graph rewriting
+%	v1
+%
+
+% comment out when compiling 
+\input{2--RewriteOpenGraphs--Preamble.tex} % input preamble
+\bibliography{3--RewriteOpenGraphs--Bibliography}	
+
+\section{Rewriting open graphs} % section title
+
+% INTRODUCTION TO THE SECTION
+
+In this section, we develop the theory
+of double pushout rewriting on open graphs.
+We closely follow the theory of
+classical double pushout (DPO) rewriting 
+on graphs as introduced by 
+\todo{citatation}.
+Because many good introductions
+to the theory of DPO rewriting
+already exist
+\todo{citations},
+we do not recall any of this
+theory here.  
+However, we do follow a
+common trajectory in the 
+organization of this paper.
+
+First, we introduce the idea
+of a rewrite rule, 
+which in the DPO context goes 
+by the name of a \emph{production}.
+Roughly, a production states that
+an open graph $G$ can be replaced
+with another open graph $H$.
+However, rewriting is really
+about replacing sub-terms,
+or, in our case, open subgraphs
+with a new open subgraph.  
+Thus, given a production that
+rewrites $G$ to $H$,
+we seek a condition that allows us to
+remove any instance of $G$ as a
+open subgraph and glue $H$
+in its place.
+For the categorically minded,
+pushouts are the operation
+one goes to when wanting to
+`glue' things together. 
+Indeed, this is where 
+double pushouts enter the picture,
+and our sough after condition
+is the existence of 
+a \emph{pushout complement}.
+Combining a given production with
+pushout complements allows us
+to derive additional productions
+in which we remove an
+open subgraph and glue in
+some new open subgraph,
+all according to the initial production.
+
+{\color{red} THIS IS MORE OF AN INTRO
+TO THE PAPER BIT. COME BACK LATER TO EDIT}
+
+A span of cospans is simply a 
+commuting diagram of shape
+\[
+	\includegraphics{InclGrphx--Diagram--SpanCospan}.
+\]
+In particular, a \emph{span of open graphs} 
+is a commuting diagram of the form
+%
+\begin{equation}
+\label{dgrm--SpanOpenGraphs}
+\includegraphics{InclGrphx--Diagram--SpanOpenGraphs}
+\end{equation}
+%
+in the category $\cat{Graph}$.
+Here, $N$ is the functor from \eqref{eq--FunctorN}
+and $\ell$ and $r$ are 
+the \defn{legs} of the span.
+
+\begin{df}
+	A \defn{rewrite rule} or \defn{production} 	
+	is a span of open graphs with monic legs.
+\end{df}
+
+Within DPO graph rewriting
+productions are defined using 
+spans of graphs
+with the theory developed considering
+using spans with two monic legs,
+only the left leg monic, and
+arbitrary legs.
+\todo{cite different authors for each case}
+\todo{cite the paper comparing approaches}
+When needing to distinguish 
+between these different 
+respective cases,
+one ofter uses the terms
+`linear production',
+`left linear production', and  
+`production'.
+Because we have no need to 
+consider different cases,
+we take `production' to mean
+a span of open graphs with 
+two monic legs.
+
+The conceit of a production,
+take \eqref{dgrm--SpanOpenGraphs}
+for instance,
+is that we can replace the 
+open graph 
+\[
+	N(I) \to L \gets N(O)
+\]
+with the open graph
+\[
+	N(I) \to R \gets N(O).
+\]
+This is desirable in many situations.
+One particular setting would be
+when using a graph to model
+a network, for instance
+a circuit of resistors.
+There are many configurations
+which have equal resistances, 
+and so a budget conscious 
+engineer would want to replace
+a network with another
+of equal resistance but
+containing fewer resistors.
+The application presented in 
+Section \todo{put in the section number}
+will involve string diagrams
+for a Frobenius object.
+Here, we will want to replace 
+a given string diagram
+(which is just an arrow in some category)
+with any other as long as 
+they are equal.
+
+The benefit of conceptualizing
+a production \eqref{dgrm--SpanOpenGraphs} 
+as a span is that
+it can serve as a mechanism
+to identify instances of $L$
+\todo{say we deonte open graph by G sometimes}
+as an open subgraph, of say $G$,
+and glue $R$ in its place.  
+The role that $K$, 
+which is a subgraph of both $L$ and $R$,
+plays in this process is that its
+elements remain fixed through the rewriting. 
+In reality, when we are replacing $L$
+with $R$ inside of $G$, 
+all pieces of $L$ coming from $K$
+are preserved.  
+The fact the inputs $N(I)$ and 
+outputs $N(O)$ factor through $K$
+in a production ensures that
+the interface is always preserved
+under rewriting.  
+While edges incident to the 
+interface may be affected,
+the nodes themselves remain untouched.  
+
+This removing and replacing is made precise
+using double pushouts.
+First, however, we introduce a condition that 
+ensures this operation can actually be done.
+
+\begin{df}
+	Given a production $p$
+	\[
+	\includegraphics{InclGrphx--Diagram--Production2}
+	\]
+	a \defn{match} of $p$ inside 
+	an open graph $G$ is a 
+	morphism of open graphs 
+	\[
+		\includegraphics{InclGrphx--Diagram--Match}
+	\]
+	This match is said to
+	satisfy \defn{the gluing condition}
+	if there exists an open graph $D$ and
+	open graph morphisms 
+	$f' \from K \to D$ and $\ell' \from D \to G$
+	such that the marked square in
+	the commuting diagram
+	\begin{equation}
+	\label{dgrm--GlueCond}
+		\includegraphics{InclGrphx--Diagram--GlueCond}
+	\end{equation}
+	is a pushout.
+\end{df}
+
+This differs from the usual
+gluing condition only mildly. 
+\todo{cite something here}
+The only addition is that 
+interfaces are respected,
+hence the arrows from 
+$N(I)$, $N(O)$, $N(I')$ and $N(O')$
+in the above diagram. 
+
+Whenever the gluing condition
+is satisfied, we can replace
+the instance of $L$ inside $G$
+with $R$ resulting
+in a new graph $H$.
+To be precise, $H$ is a pushout, 
+as situated in the diagram
+\[
+	\includegraphics{InclGrphx--Diagram--DPO}
+\]
+Because this pushout is happening
+in a topos, $\cat{oGraph}$,
+both $\ell'$ and $r'$ are monic.
+Hence
+\[
+	\includegraphics{InclGrphx--Diagram--DerivedProduction}
+\]
+is a production
+which we say is \defn{derived} from $p$ and $f$.
+
+\begin{df}
+	An \defn{open graph grammar}, 
+	or just \defn{grammar}, 
+	is a pair $( \mathcal{ G } , \mathcal{ P } )$
+	where $ \mathcal{ G } $ is a set of open graphs
+	and $ \mathcal{ P } $ is a set of productions. 
+	Given an open graph grammar,
+	the collection of all productions 
+	derived from any $ p \in \mathcal{ P } $ 
+	and matching of 
+\end{df}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

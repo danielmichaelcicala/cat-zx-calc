@@ -1,0 +1,18 @@
+\definecolor{rewritecolor}{rgb}{0,.9,1}
+\tikzset{rewritenode/.style={shape=circle,fill=rewritecolor,scale=0.25,font=\Huge}}
+\tikzset{RWopen/.style={shape=circle,draw=black,fill=white,scale=0.5,font=\Huge}}
+\tikzset{RWclosed/.style={shape=circle,fill=black,scale=0.5,font=\Huge}}
+\tikzset{CDnode/.style={shape=circle,fill=white,scale=.5}}
+\tikzset{zxgreen/.style={shape=circle,draw,thick,fill=green}}
+\tikzset{zxred/.style={shape=circle,draw,thick,fill=red}}
+\tikzset{zxyellow/.style={shape=rectangle,draw,thick,fill=yellow}}
+\tikzset{zxdiamond/.style={shape=diamond,fill=black,inner sep=2.75}}
+\tikzset{zxopen/.style={shape=circle,draw,thick,inner sep=2pt}}
+\tikzset{->-/.style={decoration={%
+			markings,
+			mark=at position .5 with {\arrow{>}}},postaction={decorate}}
+}
+\tikzset{->-pos/.style={decoration={%
+			markings,
+			mark=at position #1 with {\arrow{>}}},postaction={decorate}}
+}

@@ -1,0 +1,363 @@
+\begin{thebibliography}{10}
+\providecommand{\bibitemdeclare}[2]{}
+\providecommand{\surnamestart}{}
+\providecommand{\surnameend}{}
+\providecommand{\urlprefix}{Available at }
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{\texttt{#2}}
+\providecommand{\urlalt}[2]{\href{#1}{#2}}
+\providecommand{\doi}[1]{doi:\urlalt{http://dx.doi.org/#1}{#1}}
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitemdeclare{inproceedings}{AbramCoecke_CatSemanticQuantum}
+\bibitem{AbramCoecke_CatSemanticQuantum}
+\bibinfo{author}{S.~\surnamestart Abramsky\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Coecke\surnameend} (\bibinfo{year}{2004}):
+  \emph{\bibinfo{title}{A categorical semantics of quantum protocols}}.
+\newblock In: {\sl \bibinfo{booktitle}{Logic in Computer Science. Proceedings
+  of the 19th Annual IEEE Symposium}}, pp. \bibinfo{pages}{415--425},
+  \doi{10.1109/LICS.2004.1319636}.
+
+\bibitemdeclare{article}{CoeckeEdwards_ToyQuantumCategories}
+\bibitem{CoeckeEdwards_ToyQuantumCategories}
+\bibinfo{author}{Bob \surnamestart B.~Coecke\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Edwards\surnameend} (\bibinfo{year}{2011}):
+  \emph{\bibinfo{title}{Toy quantum categories}}.
+\newblock {\sl \bibinfo{journal}{Electron. Notes Theor. Comput. Sci.}}
+  \bibinfo{volume}{270}(\bibinfo{number}{1}),
+  \doi{10.1016/j.entcs.2011.01.004}.
+\newblock \urlprefix\url{https://arxiv.org/abs/0808.1037}.
+
+\bibitemdeclare{misc}{Backens_Completeness}
+\bibitem{Backens_Completeness}
+\bibinfo{author}{M.~\surnamestart Backens\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Completeness and the ZX-calculus}},
+  \doi{10.1109/LICS.2004.1319636}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1602.08954}.
+
+\bibitemdeclare{misc}{BaezCoyaFong_Props}
+\bibitem{BaezCoyaFong_Props}
+\bibinfo{author}{J.~\surnamestart Baez\surnameend},
+  \bibinfo{author}{B.~\surnamestart Coya\surnameend} \&
+  \bibinfo{author}{F.~\surnamestart Rebro\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{Props in network theory}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1707.08321}.
+
+\bibitemdeclare{misc}{BaezFong_CompPassLinNets}
+\bibitem{BaezFong_CompPassLinNets}
+\bibinfo{author}{J.~\surnamestart Baez\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Fong\surnameend} (\bibinfo{year}{2015}):
+  \emph{\bibinfo{title}{A compositional framework for passive linear
+  networks}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1504.05625}.
+
+\bibitemdeclare{article}{BaezFongPollard_CompMarkovProcesses}
+\bibitem{BaezFongPollard_CompMarkovProcesses}
+\bibinfo{author}{J.~\surnamestart Baez\surnameend},
+  \bibinfo{author}{B.~\surnamestart Fong\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Pollard\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{A compositional framework for {M}arkov processes}}.
+\newblock {\sl \bibinfo{journal}{J. Math. Phys.}} \bibinfo{volume}{57},
+  \doi{10.1063/1.4941578}.
+
+\bibitemdeclare{misc}{BarKissingerVicary_Globular}
+\bibitem{BarKissingerVicary_Globular}
+\bibinfo{author}{K.~\surnamestart Bar\surnameend},
+  \bibinfo{author}{A.~\surnamestart Kissinger\surnameend} \&
+  \bibinfo{author}{J.~\surnamestart Vicary\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Globular: an online proof assistant for
+  higher-dimensional rewriting}}.
+\newblock \urlprefix\url{http://globular.science}.
+
+\bibitemdeclare{misc}{Cicala_SpansCospans}
+\bibitem{Cicala_SpansCospans}
+\bibinfo{author}{D.~\surnamestart Cicala\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Spans of cospans}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1611.07886}.
+
+\bibitemdeclare{misc}{CicalaCourser_BicatSpansCospan}
+\bibitem{CicalaCourser_BicatSpansCospan}
+\bibinfo{author}{D.~\surnamestart Cicala\surnameend} \&
+  \bibinfo{author}{K.~\surnamestart Courser\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{Spans of cospans in a topos}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1707.02098}.
+
+\bibitemdeclare{incollection}{CoeckeDuncan_QuantumObsInitialReport}
+\bibitem{CoeckeDuncan_QuantumObsInitialReport}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend} (\bibinfo{year}{2008}):
+  \emph{\bibinfo{title}{Interacting quantum observables}}.
+\newblock In: {\sl \bibinfo{booktitle}{Automata, languages and programming.
+  {P}art {II}}}, {\sl \bibinfo{series}{Lecture Notes in Comput. Sci.}}
+  \bibinfo{volume}{5126}, \bibinfo{publisher}{Springer, Berlin}, pp.
+  \bibinfo{pages}{298--310}, \doi{10.1007/978-3-540-70583-3\_25}.
+
+\bibitemdeclare{article}{CoeckeDuncan_QuantumObsFullPaper}
+\bibitem{CoeckeDuncan_QuantumObsFullPaper}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend} (\bibinfo{year}{2011}):
+  \emph{\bibinfo{title}{Interacting quantum observables: categorical algebra
+  and diagrammatics}}.
+\newblock {\sl \bibinfo{journal}{New J. Phys.}} \bibinfo{volume}{13},
+  \doi{10.1088/1367-2630/13/4/043016}.
+
+\bibitemdeclare{incollection}{CoeckeEdwards_ToyTheories}
+\bibitem{CoeckeEdwards_ToyTheories}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Edwards\surnameend} (\bibinfo{year}{2012}):
+  \emph{\bibinfo{title}{Spekkens's toy theory as a category of processes}}.
+\newblock In: {\sl \bibinfo{booktitle}{Mathematical foundations of information
+  flow}}, {\sl \bibinfo{series}{Proc. Sympos. Appl.
+  Math.}}~\bibinfo{volume}{71}, \bibinfo{publisher}{Amer. Math. Soc.}, pp.
+  \bibinfo{pages}{61--68}, \doi{10.1090/psapm/071/602}.
+
+\bibitemdeclare{article}{CoeckeEdwardsSpekkens_PhaseGrpsNonLocality}
+\bibitem{CoeckeEdwardsSpekkens_PhaseGrpsNonLocality}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend},
+  \bibinfo{author}{B.~\surnamestart Edwards\surnameend} \&
+  \bibinfo{author}{R.~\surnamestart Spekkens\surnameend}
+  (\bibinfo{year}{2011}): \emph{\bibinfo{title}{Phase groups and the origin of
+  non-locality for qubits}}.
+\newblock {\sl \bibinfo{journal}{Electron. Notes Theor. Comput. Sci.}}
+  \bibinfo{volume}{270}(\bibinfo{number}{2}),
+  \doi{10.1016/j.entcs.2011.01.021}.
+
+\bibitemdeclare{incollection}{CoeckePavlovic_QuanMeasSums}
+\bibitem{CoeckePavlovic_QuanMeasSums}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{D.~\surnamestart Pavlovic\surnameend}
+  (\bibinfo{year}{2008}): \emph{\bibinfo{title}{Quantum measurements without
+  sums}}.
+\newblock In: {\sl \bibinfo{booktitle}{Mathematics of quantum computation and
+  quantum technology}}, \bibinfo{series}{Chapman \& Hall CRC Appl. Math.
+  Nonlinear Sci. Ser.}, \bibinfo{publisher}{Chapman \& Hall/CRC, Boca Raton,
+  FL}, pp. \bibinfo{pages}{559--596}, \doi{10.1201/9781584889007.ch16}.
+
+\bibitemdeclare{article}{CoeckePavVicary_OrthogBases}
+\bibitem{CoeckePavVicary_OrthogBases}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend},
+  \bibinfo{author}{D.~\surnamestart Pavlovic\surnameend} \&
+  \bibinfo{author}{J.~\surnamestart Vicary\surnameend} (\bibinfo{year}{2013}):
+  \emph{\bibinfo{title}{A new description of orthogonal bases}}.
+\newblock {\sl \bibinfo{journal}{Math. Structures Comput. Sci.}}
+  \bibinfo{volume}{23}(\bibinfo{number}{3}), \doi{10.1017/S0960129512000047}.
+
+\bibitemdeclare{article}{CoeckePerdix_EnvironClassicChannels}
+\bibitem{CoeckePerdix_EnvironClassicChannels}
+\bibinfo{author}{B.~\surnamestart Coecke\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Perdrix\surnameend} (\bibinfo{year}{2012}):
+  \emph{\bibinfo{title}{Environment and classical channels in categorical
+  quantum mechanics}}.
+\newblock {\sl \bibinfo{journal}{Log. Methods Comput. Sci.}}
+  \bibinfo{volume}{8}(\bibinfo{number}{4}), \doi{10.2168/LMCS-8(4:14)2012}.
+
+\bibitemdeclare{incollection}{Corradini_AlgApprGraphTrans}
+\bibitem{Corradini_AlgApprGraphTrans}
+\bibinfo{author}{A.~\surnamestart Corradini\surnameend},
+  \bibinfo{author}{U.~\surnamestart Montanari\surnameend},
+  \bibinfo{author}{F.~\surnamestart Rossi\surnameend},
+  \bibinfo{author}{H.~\surnamestart Ehrig\surnameend},
+  \bibinfo{author}{R.~\surnamestart Heckel\surnameend} \&
+  \bibinfo{author}{M.~\surnamestart Lowe\surnameend} (\bibinfo{year}{1997}):
+  \emph{\bibinfo{title}{Algebraic approaches to graph transformation. {B}asic
+  concepts and double pushout approach}}.
+\newblock In: {\sl \bibinfo{booktitle}{Handbook of graph grammars and computing
+  by graph transformation, {V}ol. 1}}, \bibinfo{publisher}{World Sci. Publ.,
+  River Edge, NJ}, \doi{10.1142/9789812384720\_0003}.
+
+\bibitemdeclare{article}{DanosKashefiPanang_MeasurementCalc}
+\bibitem{DanosKashefiPanang_MeasurementCalc}
+\bibinfo{author}{V.~\surnamestart Danos\surnameend},
+  \bibinfo{author}{E.~\surnamestart Kashefi\surnameend} \&
+  \bibinfo{author}{P.~\surnamestart Panangaden\surnameend}
+  (\bibinfo{year}{2007}): \emph{\bibinfo{title}{The measurement calculus}}.
+\newblock {\sl \bibinfo{journal}{J. ACM}}
+  \bibinfo{volume}{54}(\bibinfo{number}{2}), \doi{10.1145/1219092.1219096}.
+
+\bibitemdeclare{misc}{DixonDuncanKissinger_QuantomaticWebsite}
+\bibitem{DixonDuncanKissinger_QuantomaticWebsite}
+\bibinfo{author}{L.~\surnamestart Dixon\surnameend},
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend} \&
+  \bibinfo{author}{A.~\surnamestart Kissinger\surnameend}:
+  \emph{\bibinfo{title}{Quantomatic}}.
+\newblock \urlprefix\url{https://sites.google.com/site/quantomatic/}.
+
+\bibitemdeclare{incollection}{DuncanPerdix_GraphStatesEulerDecomp}
+\bibitem{DuncanPerdix_GraphStatesEulerDecomp}
+\bibinfo{author}{R.~\surnamestart Duncan\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Perdrix\surnameend} (\bibinfo{year}{2009}):
+  \emph{\bibinfo{title}{Graph states and the necessity of {E}uler
+  decomposition}}.
+\newblock In: {\sl \bibinfo{booktitle}{Mathematical theory and computational
+  practice}}, {\sl \bibinfo{series}{Lecture Notes in Comput. Sci.}}
+  \bibinfo{volume}{5635}, \bibinfo{publisher}{Springer, Berlin}, pp.
+  \bibinfo{pages}{167--177}, \doi{10.1007/978-3-642-03073-4\_18}.
+
+\bibitemdeclare{article}{DuncanPerdrix_RewritingQuantumCompu}
+\bibitem{DuncanPerdrix_RewritingQuantumCompu}
+\bibinfo{author}{R.~\surnamestart Duncan\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Perdrix\surnameend} (\bibinfo{year}{2010}):
+  \emph{\bibinfo{title}{Rewriting measurement-based quantum computations with
+  generalised flow}}.
+\newblock {\sl \bibinfo{journal}{Automata, Languages and Programming}},
+  \doi{10.1007/978-3-642-14162-1\_24}.
+
+\bibitemdeclare{misc}{EvansDuncanLangPanan_ClassMutualUnbias}
+\bibitem{EvansDuncanLangPanan_ClassMutualUnbias}
+\bibinfo{author}{J.~\surnamestart Evans\surnameend},
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend},
+  \bibinfo{author}{A.~\surnamestart Lang\surnameend} \&
+  \bibinfo{author}{P.~\surnamestart Panangaden\surnameend}
+  (\bibinfo{year}{2009}): \emph{\bibinfo{title}{Classifying all mutually
+  unbiased bases in Rel}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/0909.4453}.
+
+\bibitemdeclare{misc}{Fong_AlgOpenSystems}
+\bibitem{Fong_AlgOpenSystems}
+\bibinfo{author}{B.~\surnamestart Fong\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{The Algebra of Open and Interconnected Systems}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/arXiv:1609.05382}.
+
+\bibitemdeclare{article}{Habel}
+\bibitem{Habel}
+\bibinfo{author}{A.~\surnamestart Habel\surnameend},
+  \bibinfo{author}{J.~\surnamestart Muller\surnameend} \&
+  \bibinfo{author}{D.~\surnamestart Plump\surnameend} (\bibinfo{year}{2001}):
+  \emph{\bibinfo{title}{Double-pushout graph transformation revisited}}.
+\newblock {\sl \bibinfo{journal}{Math. Structures Comput. Sci.}}
+  \bibinfo{volume}{11}(\bibinfo{number}{5}), \doi{10.1017/S0960129501003425}.
+
+\bibitemdeclare{article}{BaezPollard_CompFrameRxNets}
+\bibitem{BaezPollard_CompFrameRxNets}
+\bibinfo{author}{John \surnamestart J.~Baez\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Pollard\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{A compositional framework for reaction networks}}.
+\newblock {\sl \bibinfo{journal}{Rev. Math. Phys.}}
+  \bibinfo{volume}{29}(\bibinfo{number}{9}), \doi{10.1142/S0129055X17500283}.
+
+\bibitemdeclare{article}{JoyalStreet_GeomTensorCalc}
+\bibitem{JoyalStreet_GeomTensorCalc}
+\bibinfo{author}{A.~\surnamestart Joyal\surnameend} \&
+  \bibinfo{author}{R.~\surnamestart Street\surnameend} (\bibinfo{year}{1991}):
+  \emph{\bibinfo{title}{The geometry of tensor calculus. {I}}}.
+\newblock {\sl \bibinfo{journal}{Adv. Math.}}
+  \bibinfo{volume}{88}(\bibinfo{number}{1}),
+  \doi{10.1016/0001-8708(91)90003-P}.
+
+\bibitemdeclare{article}{Kissinger_Pictures}
+\bibitem{Kissinger_Pictures}
+\bibinfo{author}{A.~\surnamestart Kissinger\surnameend} (\bibinfo{year}{2012}):
+  \emph{\bibinfo{title}{Pictures of processes: automated graph rewriting for
+  monoidal categories and applications to quantum computing}}.
+\newblock {\sl \bibinfo{journal}{Ph.D. Thesis{,} University of Oxford}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1203.0202}.
+
+\bibitemdeclare{incollection}{KissingerZamd_Quantomatic}
+\bibitem{KissingerZamd_Quantomatic}
+\bibinfo{author}{A.~\surnamestart Kissinger\surnameend} \&
+  \bibinfo{author}{V.~\surnamestart Zamdzhiev\surnameend}
+  (\bibinfo{year}{2015}): \emph{\bibinfo{title}{Quantomatic: a proof assistant
+  for diagrammatic reasoning}}.
+\newblock In: {\sl \bibinfo{booktitle}{Automated deduction---{CADE} 25}}, {\sl
+  \bibinfo{series}{Lecture Notes in Comput. Sci.}} \bibinfo{volume}{9195},
+  \bibinfo{publisher}{Springer, Cham}, pp. \bibinfo{pages}{326--336},
+  \doi{10.1007/978-3-319-21401-6\_22}.
+
+\bibitemdeclare{article}{Dixon_OpenGraphs}
+\bibitem{Dixon_OpenGraphs}
+\bibinfo{author}{Lucas \surnamestart L.~Dixon\surnameend},
+  \bibinfo{author}{R.~\surnamestart Duncan\surnameend} \&
+  \bibinfo{author}{A.~\surnamestart Kissinger\surnameend}
+  (\bibinfo{year}{2010}): {\sl \bibinfo{journal}{Electron. Proc. Theor. Comput.
+  Sci.}} \bibinfo{volume}{26}, \doi{10.4204/EPTCS.26.16}.
+
+\bibitemdeclare{book}{MaclaneMoerdijk}
+\bibitem{MaclaneMoerdijk}
+\bibinfo{author}{S.~\surnamestart MacLane\surnameend} \&
+  \bibinfo{author}{I.~\surnamestart Moerdijk\surnameend}
+  (\bibinfo{year}{2012}): \emph{\bibinfo{title}{Sheaves in geometry and logic:
+  A first introduction to topos theory}}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+
+\bibitemdeclare{article}{Merry_BangGraphs}
+\bibitem{Merry_BangGraphs}
+\bibinfo{author}{A.~\surnamestart Merry\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{Reasoning with !-Graphs}}.
+\newblock {\sl \bibinfo{journal}{CoRR}} \bibinfo{volume}{abs/1403.7828}.
+\newblock \urlprefix\url{http://arxiv.org/abs/1403.7828}.
+
+\bibitemdeclare{book}{NielsenChuang_QuantumCompInfo}
+\bibitem{NielsenChuang_QuantumCompInfo}
+\bibinfo{author}{M.~\surnamestart Nielsen\surnameend} \&
+  \bibinfo{author}{I.~\surnamestart Chuang\surnameend} (\bibinfo{year}{2010}):
+  \emph{\bibinfo{title}{Quantum computation and quantum information}}.
+\newblock \bibinfo{publisher}{Cambridge University Press, Cambridge},
+  \doi{10.1017/CBO9780511976667}.
+
+\bibitemdeclare{incollection}{Pavlovic_QuanClassNondetermCompu}
+\bibitem{Pavlovic_QuanClassNondetermCompu}
+\bibinfo{author}{D.~\surnamestart Pavlovic\surnameend} (\bibinfo{year}{2009}):
+  \emph{\bibinfo{title}{Quantum and classical structures in nondeterministic
+  computation}}.
+\newblock In: {\sl \bibinfo{booktitle}{Quantum interaction}}, {\sl
+  \bibinfo{series}{Lecture Notes in Comput. Sci.}} \bibinfo{volume}{5494},
+  \bibinfo{publisher}{Springer, Berlin}, pp. \bibinfo{pages}{143--157},
+  \doi{10.1007/978-3-642-00834-4\_13}.
+
+\bibitemdeclare{incollection}{Penrose_NegDimTensors}
+\bibitem{Penrose_NegDimTensors}
+\bibinfo{author}{R.~\surnamestart Penrose\surnameend} (\bibinfo{year}{1971}):
+  \emph{\bibinfo{title}{Applications of negative dimensional tensors}}.
+\newblock In: {\sl \bibinfo{booktitle}{Combinatorial {M}athematics and its
+  {A}pplications ({P}roc. {C}onf., {O}xford, 1969)}},
+  \bibinfo{publisher}{Academic Press, London}, pp. \bibinfo{pages}{221--244}.
+\newblock \urlprefix\url{http://homepages.math.uic.edu/~kauffman/Penrose.pdf}.
+
+\bibitemdeclare{article}{Pollard_OpenMarkov}
+\bibitem{Pollard_OpenMarkov}
+\bibinfo{author}{B.~\surnamestart Pollard\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Open Markov Processes: A Compositional Perspective on
+  Non{-}Equilibrium Steady States in Biology}}.
+\newblock {\sl \bibinfo{journal}{Entropy}}
+  \bibinfo{volume}{18}(\bibinfo{number}{4}), \doi{10.3390/e18040140}.
+
+\bibitemdeclare{misc}{Pstrski_DualObjectsCobord}
+\bibitem{Pstrski_DualObjectsCobord}
+\bibinfo{author}{P.~\surnamestart Pstragowski\surnameend}
+  (\bibinfo{year}{2014}): \emph{\bibinfo{title}{On dualizable objects in
+  monoidal bicategories, framed surfaces and the {C}obordism {H}ypothesis}}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1411.6691}.
+
+\bibitemdeclare{article}{SassoneSobocinski_PetriNets}
+\bibitem{SassoneSobocinski_PetriNets}
+\bibinfo{author}{V.~\surnamestart Sassone\surnameend} \&
+  \bibinfo{author}{P.~\surnamestart Sobocinski\surnameend}
+  (\bibinfo{year}{2005}): \emph{\bibinfo{title}{A congruence for Petri nets}}.
+\newblock {\sl \bibinfo{journal}{Electronic Notes in Theoretical Computer
+  Science}} \bibinfo{volume}{127}(\bibinfo{number}{2}),
+  \doi{10.1016/j.entcs.2005.02.008}.
+
+\bibitemdeclare{incollection}{Selinger_GraphicsMonCats}
+\bibitem{Selinger_GraphicsMonCats}
+\bibinfo{author}{P.~\surnamestart Selinger\surnameend} (\bibinfo{year}{2011}):
+  \emph{\bibinfo{title}{A survey of graphical languages for monoidal
+  categories}}.
+\newblock In: {\sl \bibinfo{booktitle}{New structures for physics}}, {\sl
+  \bibinfo{series}{Lecture Notes in Phys.}} \bibinfo{volume}{813},
+  \bibinfo{publisher}{Springer, Heidelberg}, pp. \bibinfo{pages}{289--355},
+  \doi{10.1007/978-3-642-12821-9\_4}.
+
+\bibitemdeclare{misc}{Shulman_ConstructSMBicats}
+\bibitem{Shulman_ConstructSMBicats}
+\bibinfo{author}{M.~\surnamestart Shulman\surnameend} (\bibinfo{year}{2010}):
+  \emph{\bibinfo{title}{Constructing symmetric monoidal bicategories}}.
+\newblock \urlprefix\url{http://arxiv.org/abs/1004.0993}.
+
+\bibitemdeclare{article}{Stay_CompactClosedBicats}
+\bibitem{Stay_CompactClosedBicats}
+\bibinfo{author}{M.~\surnamestart Stay\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{Compact closed bicategories}}.
+\newblock {\sl \bibinfo{journal}{Theory Appl. Categ.}} \bibinfo{volume}{31}.
+\newblock \urlprefix\url{https://arxiv.org/abs/1301.1053}.
+
+\end{thebibliography}

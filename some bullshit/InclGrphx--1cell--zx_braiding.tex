@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\node [zxopen] (1) at (0,0) {};
+\node [zxopen] (2) at (0,1.2) {};
+\node [zxopen] (3) at (2,0) {};
+\node [zxopen] (4) at (2,1.2) {};
+%
+\draw [->-pos=0.25] (1) to[in=180,out=0] (4); 
+\draw [->-pos=0.25] (2) to[in=180,out=0] (3); 
+%
+\node at (0,-0.4) {$2$};
+\node at (2,-0.4) {$2$};
+\end{tikzpicture}

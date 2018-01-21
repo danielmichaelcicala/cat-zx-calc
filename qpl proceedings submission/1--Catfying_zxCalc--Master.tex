@@ -1,0 +1,73 @@
+%
+% Categorifying the zx-calculus
+% Master
+% qpl submission
+%
+
+\documentclass[submission,copyright,creativecommons]{eptcs}
+\providecommand{\event}{QPL 2017} % Name of the event you are submitting to
+%\usepackage{breakurl} % Not needed if you use pdflatex only.
+%\usepackage{underscore} % Only needed if you use pdflatex.
+%\usepackage{cite}
+%\usepackage[backend=bibtex]{biblatex}
+
+\input{2--Catfying_zxCalc--Preamble}
+
+\title{Categorifying the zx-calculus}
+\author{Daniel Cicala
+\institute{University of California, Riverside}
+\institute{Department of Mathematics}
+\email{cicala@math.ucr.edu}
+}
+\def\titlerunning{Categorifying the zx-calculus}
+\def\authorrunning{D.~Cicala}
+
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+\begin{document} %%
+%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+
+\begin{abstract}
+	We build a symmetric monoidal and 
+	compact closed bicategory
+	by combining spans and cospans
+	inside a topos.
+	This can be used as a framework
+	in which to study open networks 
+	and diagrammatic languages.
+	We illustrate this framework with
+	Coecke and Duncan's zx-calculus
+	by constructing a bicategory with 
+	the natural numbers for 0-cells,
+	the zx-calculus diagrams for 1-cells, and
+	rewrite rules for 2-cells. 
+\end{abstract}
+
+%
+% Categorifying the zx-calculus
+% Introduction
+% qpl submission
+%
+
+\input{a--Catfying_zxCalc--Intro}
+\input{b--Catfying_zxCalc--zxCalc}
+\input{c--Catfying_zxCalc--RewrtngOpenGraphs}
+\input{d--Catfying_zxCalc--OpnGphsSzx}
+\input{e--Catfying_zxCalc--CatfcnZx}
+\input{f--Catfying_zxCalc--Conclusion}
+
+\appendix
+\input{g--Catfying_zxCalc--SmccBicat}
+
+\nocite{*}
+\bibliographystyle{eptcs}
+\bibliography{3--Catfying_zxCalc--Bibliography}
+ 
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+\end{document}  %%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Wraith(1974)]{Wraith_ArtinGlue}
+G.~Wraith.
+\newblock Artin glueing.
+\newblock \emph{J. Pure Appl. Algebra}, 4:\penalty0 345--348, 1974.
+\newblock ISSN 0022-4049.
+\newblock \doi{10.1016/0022-4049(74)90014-0}.
+\newblock URL \url{http://dx.doi.org/10.1016/0022-4049(74)90014-0}.
+
+\end{thebibliography}

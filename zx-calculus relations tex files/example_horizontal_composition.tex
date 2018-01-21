@@ -1,0 +1,554 @@
+\documentclass[tikz, preview]{standalone}
+
+\usepackage{amsfonts, amsthm, amssymb, amsmath, stmaryrd, etoolbox}
+\usepackage{tikz}
+\usepackage[all,2cell]{xy}
+\usetikzlibrary{matrix,arrows,shapes,decorations.markings,decorations.pathreplacing}
+\definecolor{rewritecolor}{rgb}{0,.9,1}
+\tikzset{rewritenode/.style={shape=circle,fill=rewritecolor,scale=0.25,font=\Huge}}
+\tikzset{RWopen/.style={shape=circle,draw=black,fill=white,scale=0.5,font=\Huge}}
+\tikzset{RWclosed/.style={shape=circle,fill=black,scale=0.5,font=\Huge}}
+\tikzset{CDnode/.style={shape=circle,fill=white,scale=.5}}
+\tikzset{zxgreen/.style={shape=circle,draw,thick,fill=green}}
+\tikzset{zxred/.style={shape=circle,draw,thick,fill=red}}
+\tikzset{zxyellow/.style={shape=rectangle,draw,thick,fill=yellow}}
+\tikzset{zxdiamond/.style={shape=diamond,fill=black,inner sep=2.75}}
+\tikzset{zxopen/.style={shape=circle,draw,thick,inner sep=2pt}}
+\tikzset{->-/.style={decoration={markings,mark=at position .5 with {\arrow{>}}},postaction={decorate}}}
+\tikzset{->-pos/.style={decoration={
+			markings,
+			mark=at position #1 with {\arrow{>}}},postaction={decorate}}}
+
+
+\begin{document}
+\[
+\begin{tikzpicture}
+%
+%
+% BEGIN LEFT HAND SIDE
+% BEGIN LEFT HAND SIDE
+% BEGIN LEFT HAND SIDE
+% BEGIN LEFT HAND SIDE
+% BEGIN LEFT HAND SIDE
+%
+%
+\begin{scope}[shift={(-6,-0.1)}]
+%
+%
+% BEGIN INNER SCOPE LEFT -- LHS
+% BEGIN INNER SCOPE LEFT -- LHS
+% BEGIN INNER SCOPE LEFT -- LHS
+%
+%
+\begin{scope}[shift={(-2,0)}]
+%
+% 
+% INNER LEFT SCOPE 1 -- LHS
+% 
+%
+\begin{scope}[shift={(0,-0.3)}]
+\node [zxgreen] (v1) at (0,0.1) {};
+\node [zxopen] (v2) at (-0.6,0.3) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.3) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+\draw [->-] (v2) to [out=0,in=135] (v1);
+\draw [->-]  (v3) to [out=0,in=-135] (v1);
+\draw [->-]  (v1) to [out=45,in=180] (v4);
+\draw [->-]  (v1) to [out=-45,in=180] (v5);
+%
+\node [zxgreen] (v6) at (0,-0.6) {};
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.8) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.8) {};
+\draw [->-]  (v7) to [out=0,in=135] (v6);
+\draw [->-]  (v8) to [out=0,in=-135] (v6);
+\draw [->-]  (v6) to [out=45,in=180] (v9);
+\draw [->-] (v6) to [out=-45,in=180] (v10);
+\draw [->-]  (v1) to (v6);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a1) at (0,-1) {};
+\node (a_left_up_left) at (-1,-0.2) {};
+\node (a_left_up_right) at (1,-0.1) {};
+\end{scope}
+%
+%
+% INNER LEFT SCOPE 2 -- LHS
+%
+%
+\begin{scope}[shift={(0,-2.5)}]
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.2) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+%
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.7) {};
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a2) at (0,0.4) {};
+\node (a3) at (0,-1) {};
+\node (a_left_mid_left) at (-1,-0.2) {};
+\node (a_left_mid_right) at (1,-0.2) {};
+\end{scope}
+%
+%
+% INNER LEFT SCOPE 3 -- LHS
+%
+%
+\begin{scope}[shift={(0,-4.7)}]
+\node [zxgreen] (v1) at (0,-0.25) {};
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.2) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+\draw [->-] (v2) to [out=0,in=120] (v1);
+\draw [->-]  (v3) to [out=0,in=150] (v1);
+\draw [->-]  (v1) to [out=60,in=180] (v4);
+\draw [->-]  (v1) to [out=30,in=180] (v5);
+%
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.7) {};
+\draw [->-]  (v7) to [out=0,in=-150] (v1);
+\draw [->-]  (v8) to [out=0,in=-120] (v1);
+\draw [->-]  (v1) to [out=-30,in=180] (v9);
+\draw [->-] (v1) to [out=-60,in=180] (v10);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a4) at (0,0.4) {};
+\node (a_left_down_left) at (-1,-0.2) {};
+\node (a_left_down_right) at (1,-0.2) {};
+\end{scope}
+%
+%
+% SPAN ARROWS -- LHS
+%
+%
+\draw [->]  (a2) edge (a1);
+\draw [->] (a3) edge (a4);
+%
+% 
+% END INNER SCOPE LEFT -- LHS
+% END INNER SCOPE LEFT -- LHS
+% END INNER SCOPE LEFT -- LHS
+%
+%
+\end{scope}
+%
+%
+% BEGIN INNER SCOPE RIGHT -- LHS
+% BEGIN INNER SCOPE RIGHT -- LHS
+% BEGIN INNER SCOPE RIGHT -- LHS
+%
+%
+\begin{scope}[shift={(2.4,5.7)}]
+%
+%
+%  INNER RIGHT SCOPE 1 -- LHS
+%
+%
+\begin{scope}[shift={(0,-6)}]
+\node [zxgreen] (v1) at (0,0) {};
+\node [zxopen] (v2) at (-0.6,0.3) {};
+\node [zxopen] (v3) at (-0.6,0) {};
+\node [zxopen] (v4) at (-0.6,-0.3) {};
+\node [zxopen] (v5) at (0.6,0.3) {};
+\node [zxopen] (v6) at (0.6,-0.3) {};
+\draw [->-] (v2) to [out=0,in=120] (v1);
+\draw [->-]  (v3) to [out=0,in=180] (v1);
+\draw [->-]  (v4) to [out=0,in=-120] (v1);
+\draw [->-]  (v1) to [out=60,in=180] (v5);
+\draw [->-]  (v1) to [out=-60,in=-180] (v6);
+%
+\node [zxopen] (v7) at (-0.6,-0.7) {};
+\node [zxred] (v8) at (0,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.7) {};
+\draw [->-]  (v7) to [out=0,in=180] (v8);
+\draw [->-]  (v8) to [out=0,in=180] (v9);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a1) at (0,-1) {};
+\node (a_right_up_left) at (-1,-0.2) {};
+\node (a_right_up_right) at (1,-0.2) {};
+\end{scope}
+%
+%
+%  INNER RIGHT SCOPE 2 -- LHS
+%
+%
+\begin{scope}[shift={(0,-8.2)}]
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.1) {};
+\node [zxopen] (v5) at (0.6,-0.2) {};
+%
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.5) {};
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a2) at (0,0.5) {};
+\node (a3) at (0,-0.8) {};
+\node (a_right_mid_left) at (-1,-0.2) {};
+\node (a_right_mid_right) at (1,-0.2) {};
+\end{scope}
+%
+%
+% INNER RIGHT SCOPE 3 -- LHS
+%
+%
+\begin{scope}[shift={(0,-10.4)}]
+\node [zxgreen] (v1) at (0,-0.1) {};
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (-0.6,-0.4) {};
+\node [zxopen] (v5) at (0.6,0.2) {};
+\node [zxopen] (v6) at (0.6,-0.4) {};
+\draw [->-] (v2) to [out=0,in=120] (v1);
+\draw [->-]  (v3) to [out=0,in=180] (v1);
+\draw [->-]  (v4) to [out=0,in=-120] (v1);
+\draw [->-]  (v1) to [out=60,in=180] (v5);
+\draw [->-]  (v1) to [out=-60,in=-180] (v6);
+%
+\node [zxopen] (v7) at (-0.6,-0.7) {};
+\node [zxopen] (v8) at (0.6,-0.7) {};
+\draw [->-]  (v7) to [out=0,in=180] (v8);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a4) at (0,0.5) {};
+\node (a_right_down_left) at (-1,-0.2) {};
+\node (a_right_down_right) at (1,-0.2) {};
+\end{scope}
+%
+%
+% SPAN ARROWS -- LHS
+%
+%
+\draw [->]  (a2) edge (a1);
+\draw [->] (a3) edge (a4);
+%
+%
+% END INNER SCOPE RIGHT -- LHS
+% END INNER SCOPE RIGHT -- LHS
+% END INNER SCOPE RIGHT -- LHS
+%
+%
+\end{scope}
+%
+%
+% INPUTS -- LHS
+% INPUTS -- LHS
+% INPUTS -- LHS
+%
+%
+\begin{scope}[shift={(-4.2,-2.5)}]
+\node [zxopen] (v2) at (0,0.2) {};
+\node [zxopen] (v3) at (0,-0.1) {};
+\node [zxopen] (v4) at (0,-0.7) {};
+\node [zxopen] (v5) at (0,-0.4) {};
+%
+\node (r1) at (-0.5,0.5) {};
+\node (r2) at (0.5,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a_left) at (0.5,-0.2) {};
+\end{scope}
+%
+%
+% MEDIATORS -- LHS
+% MEDIATORS -- LHS
+% MEDIATORS -- LHS
+%
+%
+\begin{scope}[shift={(0.2,-2.5)}]
+\node [zxopen] (v2) at (0,0.2) {};
+\node [zxopen] (v3) at (0,-0.1) {};
+\node [zxopen] (v4) at (0,-0.7) {};
+\node [zxopen] (v5) at (0,-0.4) {};
+%
+\node (r1) at (-0.5,0.5) {};
+\node (r2) at (0.5,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a_mid_left) at (-0.5,-0.2) {};
+\node (a_mid_right) at (0.5,-0.2) {};
+\end{scope}
+%
+%
+% OUTPUTS -- LHS
+% OUTPUTS -- LHS
+% OUTPUTS -- LHS
+%
+%
+\begin{scope}[shift={(4.6,-2.5)}]
+\node [zxopen] (v2) at (0,0.1) {};
+\node [zxopen] (v3) at (0,-0.2) {};
+\node [zxopen] (v5) at (0,-0.5) {};
+%
+\node (r1) at (-0.5,0.5) {};
+\node (r2) at (0.5,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a_right) at (-0.5,-0.2) {};
+\end{scope}
+%
+%
+% COSPAN ARROWS -- LHS
+% COSPAN ARROWS -- LHS
+% COSPAN ARROWS -- LHS
+%
+%
+\draw [->] (a_left) to [out=60,in=180] (a_left_up_left);
+\draw [->] (a_left) to (a_left_mid_left);
+\draw [->] (a_left) to [out=-60,in=180] (a_left_down_left);
+
+\draw [->] (a_mid_left) to [out=120,in=0] (a_left_up_right);
+\draw [->] (a_mid_left) to (a_left_mid_right);
+\draw [->] (a_mid_left) to [out=-120,in=0] (a_left_down_right);
+
+\draw [->] (a_mid_right) to [out=60,in=180] (a_right_up_left);
+\draw [->] (a_mid_right) to (a_right_mid_left);
+\draw [->] (a_mid_right) to [out=-60,in=180] (a_right_down_left);
+
+\draw [->] (a_right) to [out=120,in=0] (a_right_up_right);
+\draw [->] (a_right) to (a_right_mid_right);
+\draw [->] (a_right) to [out=-120,in=0] (a_right_down_right);
+%
+%
+% END LEFT HAND SIDE
+% END LEFT HAND SIDE
+% END LEFT HAND SIDE
+% END LEFT HAND SIDE
+% END LEFT HAND SIDE
+%
+%
+\end{scope}
+%
+%
+%  BEGIN RIGHT HAND SIDE
+%  BEGIN RIGHT HAND SIDE
+%  BEGIN RIGHT HAND SIDE
+%  BEGIN RIGHT HAND SIDE
+%  BEGIN RIGHT HAND SIDE
+%
+%
+\begin{scope}[shift={(2.5,-0.1)}]
+%
+% 
+% MID UPPER SCOPE 1 -- RHS
+% 
+%
+\begin{scope}[shift={(0,-0.3)}]
+\node [zxgreen] (v1) at (0,0.1) {};
+\node [zxopen] (v2) at (-0.6,0.3) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.3) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+\draw [->-] (v2) to [out=0,in=135] (v1);
+\draw [->-]  (v3) to [out=0,in=-135] (v1);
+\draw [->-]  (v1) to [out=45,in=180] (v4);
+\draw [->-]  (v1) to [out=-45,in=180] (v5);
+%
+\node [zxgreen] (v6) at (0,-0.6) {};
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.8) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.8) {};
+\draw [->-]  (v7) to [out=0,in=135] (v6);
+\draw [->-]  (v8) to [out=0,in=-135] (v6);
+\draw [->-]  (v6) to [out=45,in=180] (v9);
+\draw [->-] (v6) to [out=-45,in=180] (v10);
+\draw [->-]  (v1) to (v6);
+%
+\node [zxgreen] (v11) at (1.2,-0.1) {};
+\node [zxopen] (v12) at (1.8,0.3) {};
+\node [zxopen] (v13) at (1.8,-0.4) {};
+\draw [->-] (v4) to [out=0,in=120] (v11);
+\draw [->-] (v5) to [out=0,in=180] (v11);
+\draw [->-] (v9) to [out=0,in=-120] (v11);
+\draw [->-] (v11) to [out=60,in=180] (v12);
+\draw [->-] (v11) to [out=-60,in=180] (v13);
+%
+\node [zxred] (v14) at (1.2,-0.8) {};
+\node [zxopen] (v15) at (1.8,-0.8) {};
+\draw [->-] (v10) to (v14);
+\draw [->-] (v14) to (v15);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (2,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a1) at (0.5,-1) {};
+\node (a_up_left) at (-1,-0.2) {};
+\node (a_up_right) at (2,-0.2) {};
+\end{scope}
+%
+%
+% MID MIDDLE SCOPE 2 -- RHS
+%
+%
+\begin{scope}[shift={(0,-2.5)}]
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.2) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.7) {};
+\node [zxopen] (v11) at (1.8,0.1) {};
+\node [zxopen] (v12) at (1.8,-0.2) {};
+\node [zxopen] (v13) at (1.8,-0.5) {};
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (2.1,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a2) at (0.5,0.5) {};
+\node (a3) at (0.5,-1) {};
+\node (a_mid_left) at (-1,-0.2) {};
+\node (a_mid_right) at (2.1,-0.2) {};
+\end{scope}
+%
+%
+% MID LOWER SCOPE 3 -- RHS
+%
+%
+\begin{scope}[shift={(0,-4.8)}]
+\node [zxgreen] (v1) at (0,-0.25) {};
+\node [zxopen] (v2) at (-0.6,0.2) {};
+\node [zxopen] (v3) at (-0.6,-0.1) {};
+\node [zxopen] (v4) at (0.6,0.2) {};
+\node [zxopen] (v5) at (0.6,-0.1) {};
+\draw [->-] (v2) to [out=0,in=120] (v1);
+\draw [->-]  (v3) to [out=0,in=150] (v1);
+\draw [->-]  (v1) to [out=60,in=180] (v4);
+\draw [->-]  (v1) to [out=30,in=180] (v5);
+%
+\node [zxopen] (v7) at (-0.6,-0.4) {};
+\node [zxopen] (v8) at (-0.6,-0.7) {};
+\node [zxopen] (v9) at (0.6,-0.4) {};
+\node [zxopen] (v10) at (0.6,-0.7) {};
+\draw [->-]  (v7) to [out=0,in=-150] (v1);
+\draw [->-]  (v8) to [out=0,in=-120] (v1);
+\draw [->-]  (v1) to [out=-30,in=180] (v9);
+\draw [->-] (v1) to [out=-60,in=180] (v10);
+%
+\node [zxgreen] (v11) at (1.2,-0.1) {};
+\node [zxopen] (v12) at (1.8,0.2) {};
+\node [zxopen] (v13) at (1.8,-0.4) {};
+\draw [->-]  (v4) to [out=0,in=120] (v11);
+\draw [->-]  (v5) to [out=0,in=180] (v11);
+\draw [->-]  (v9) to [out=0,in=-120] (v11);
+\draw [->-] (v11) to [out=60,in=180] (v12);
+\draw [->-] (v11) to [out=-60,in=180] (v13);
+%
+\node [zxopen] (v14) at (1.8,-0.7) {};
+\draw [->-] (v10) to (v14);
+%
+\node (r1) at (-1,0.5) {};
+\node (r2) at (2,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a4) at (0.5,0.5) {};
+\node (a_down_left) at (-1,-0.2) {};
+\node (a_down_right) at (2,-0.2) {};
+\end{scope}
+%
+%
+%
+% INPUTS -- RHS
+% INPUTS -- RHS
+% INPUTS -- RHS
+%
+%
+\begin{scope}[shift={(-2.2,-2.5)}]
+\node [zxopen] (v2) at (0,0.2) {};
+\node [zxopen] (v3) at (0,-0.1) {};
+\node [zxopen] (v4) at (0,-0.7) {};
+\node [zxopen] (v5) at (0,-0.4) {};
+%
+\node (r1) at (-0.5,0.5) {};
+\node (r2) at (0.5,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a_left) at (0.5,-0.2) {};
+\end{scope}
+%
+%
+% OUTPUTS -- RHS
+% OUTPUTS -- RHS
+% OUTPUTS -- RHS
+%
+%
+\begin{scope}[shift={(3.2,-2.5)}]
+\node [zxopen] (v2) at (0,0.1) {};
+\node [zxopen] (v3) at (0,-0.2) {};
+\node [zxopen] (v5) at (0,-0.5) {};
+%
+\node (r1) at (-0.5,0.5) {};
+\node (r2) at (0.5,-1) {};
+\draw [rounded corners] (r1) rectangle (r2);
+%
+\node (a_right) at (-0.5,-0.2) {};
+\end{scope}
+%
+%
+% (CO)SPAN ARROWS -- RHS
+%
+%
+\draw [->]  (a2) edge (a1);
+\draw [->] (a3) edge (a4);
+\draw [->] (a_left) to [out=60,in=180] (a_up_left);
+\draw [->] (a_left) to (a_mid_left);
+\draw [->] (a_left) to [out=-60,in=180] (a_down_left);
+\draw [->] (a_right) to [out=120,in=0] (a_up_right);
+\draw [->] (a_right) to (a_mid_right);
+\draw [->] (a_right) to [out=-120,in=0] (a_down_right);
+%
+%
+% END RIGHT HAND SIDE
+% END RIGHT HAND SIDE
+% END RIGHT HAND SIDE
+% END RIGHT HAND SIDE
+% END RIGHT HAND SIDE
+%
+%
+\end{scope}
+%
+%
+% EQUALS SIGN
+% EQUALS SIGN
+% EQUALS SIGN
+% EQUALS SIGN
+% EQUALS SIGN
+%
+%
+\node at (-0.5,-2.8) {$\mapsto$};
+\end{tikzpicture}
+\]
+\end{document}

@@ -1,0 +1,58 @@
+\begin{tikzpicture}
+	%
+	% LEFT HAND SIDE
+	%
+	\begin{scope}[shift={(0,0)}]
+	\node (1) at (0,0) {$x$};
+	\node (2) at (1.2,0) {$y$};
+	\node (3) at (2.4,0) {$z$};
+	\node (4) at (0.6,0.8) {$s'$};
+	\node (5) at (0.6,0) {$s$};
+	\node (6) at (0.6,-0.8) {$s''$};
+	\node (7) at (1.8,0.8) {$t'$};
+	\node (8) at (1.8,0) {$t$};
+	\node (9) at (1.8,-0.8) {$t''$};
+	%
+	\draw [->] (1) edge [out=90,in=180] (4);
+	\draw [->] (1) edge (5);
+	\draw [->] (1) edge [out=-90,in=180] (6);
+	\draw [->] (2) edge [out=90,in=0] (4);
+	\draw [->] (2) edge (5);
+	\draw [->] (2) edge [out=-90,in=0] (6);
+	\draw [->] (2) edge [out=90,in=180] (7);
+	\draw [->] (2) edge (8);
+	\draw [->] (2) edge [out=-90,in=180] (9);
+	\draw [->] (3) edge [out=90,in=0] (7);
+	\draw [->] (3) edge (8);
+	\draw [->] (3) edge [out=-90,in=0] (9);
+	\draw [->] (5) edge (4);
+	\draw [->] (5) edge (6);
+	\draw [->] (8) edge (7);
+	\draw [->] (8) edge (9);
+	\end{scope}
+	%
+	%	RIGHT HAND SIDE
+	%
+	\begin{scope}[shift={(4.2,0)}]
+	\node (1) at (-0.4,0) {$x$};
+	\node (2) at (1.6,0) {$y$};
+	\node (4) at (0.6,0.8) {$s' +_t t'$};
+	\node (5) at (0.6,0) {$s +_y t$};
+	\node (6) at (0.6,-0.8) {$s'' +_y t''$};
+	%
+	\draw [->] (1) edge [out=90,in=180] (4);
+	\draw [->] (1) edge (5);
+	\draw [->] (1) edge [out=-90,in=180] (6);
+	\draw [->] (2) edge [out=90,in=0] (4);
+	\draw [->] (2) edge (5);
+	\draw [->] (2) edge [out=-90,in=0] (6);
+	\draw [->] (5) edge (4);
+	\draw [->] (5) edge (6);
+	\end{scope}
+	%
+	% EXTRA STUFF
+	%
+	\node (v1) at (2.4,0) {};
+	\node (v2) at (3.8,0) {};
+	\draw [|->] (v1) edge node[above] {\tiny hor comp} (v2);
+\end{tikzpicture}

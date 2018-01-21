@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\begin{scope}[shift={(-2.8,0)}]
+\node (v1) at (2,0.2) {$\bullet$};
+\node (v2) at (2.8,-0.2) {$\bullet$};
+\node (v3) at (2,-0.6) {$\bullet$};
+\node (v4) at (3.6,-0.2) {$\bullet$};
+\draw [->-]  (v1.center) to [out=0,in=90] (v2.center);
+\draw [->-] (v3.center) to [out=0,in=-90] (v2.center);
+\draw [dashed] (2,-0.2) ellipse (0.2 and 0.6);
+\node at (2,-1) {\scriptsize inputs};
+\draw [->-] (v2.center) to (v4.center);
+\end{scope}
+\begin{scope}
+\node (v1) at (2,0.2) {$\bullet$};
+\node (v2) at (0.8,-0.2) {$\bullet$};
+\node (v3) at (1.6,-0.6) {$\bullet$};
+\draw [->-]  (v2.center) to [out=90,in=180] (v1.center);
+\draw [->-] (v2.center) to [out=-90,in=180] (v3.center);
+\draw [dashed] (2,0.2) ellipse (0.2 and 0.2);
+\node at (2,-1) {\scriptsize outputs};
+\end{scope}
+\end{tikzpicture}

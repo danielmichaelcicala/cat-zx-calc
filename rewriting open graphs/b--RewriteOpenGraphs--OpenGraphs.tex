@@ -1,0 +1,212 @@
+%
+% 	OPEN OBJECTS AND REWRITING
+%	open object
+%	v1
+%
+
+% comment out when compiling 
+%\input{2--RewriteOpenGraphs--Preamble.tex} % input preamble
+%\bibliography{3--RewriteOpenGraphs--Bibliography}	
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{A motivating example}
+\label{sec:MotivatingExample}
+%%%%%%%%%%%%%%%%%%%%%
+
+\todo{
+	intro to section
+}
+
+\todo{
+	rewrite this section.
+	its exactly from 
+	zx-calc paper
+}
+Conceptually, open graphs 
+are quite simple.  
+Take a directed graph 
+and declare some of the nodes 
+to be inputs and 
+others to be outputs, 
+for example
+\begin{equation}
+\label{ex--OpenGraph1}
+	\includegraphics{InclGrphx--Example--OpenGraph1}
+\end{equation}
+
+Given open graphs $G$ and $G'$,
+if the set of inputs in $G$
+and the set of outputs in $G'$
+have the same cardinality,
+we can glue them together
+along a bijection.
+This gives a way 
+to turn a pair of 
+compatible open graphs
+into a single open graph.  
+For instance, 
+to the above open graph, 
+we can connect 
+\begin{equation}
+\label{ex--OpenGraph2}
+	\includegraphics{InclGrphx--Example--OpenGraph2}
+\end{equation}
+to form
+\begin{equation}
+	\label{ex--OpenGraph3}
+	\includegraphics{InclGrphx--Example--OpenGraph3}
+\end{equation}
+We make this precise with
+cospans and pushouts.
+
+\todo{
+	past considerations of open graphs
+}
+
+Consider the functor
+\begin{equation}
+\label{eq--FunctorN}
+	N \colon \mathbf{FinSet} \to \mathbf{Graph},
+\end{equation}
+defined by the letting 
+$N(X)$ be the edgeless graph 
+with nodes $X$.  
+
+\begin{df} % open graphs
+\label{df--OpenGraph}
+	An \emph{open graph} is then 
+	a cospan in the category 
+	$\mathbf{Graph}$ 
+	of the form 
+	$N(X) \to G \gets N(Y)$ 
+	for sets $X$ and $Y$.
+	Given another open graph
+	$N(X') \to G' \gets N(Y')$, 
+	a morphism between them
+	is a triple $(f,g,h)$ so that
+	the diagram
+	\[
+		\includegraphics{InclGrphx--Diagram--OpenGraphMap}
+	\]
+	commutes.
+	Open graphs and their morphisms
+	form a category $\cat{OpenGraph}$.	
+\end{df}
+
+Isomorphisms of open graphs
+play an important role 
+for the theory developed in this paper.  
+Of particular note are the \defn{globular morphisms},
+which are those where 
+$f$ and $h$ are identities.  
+
+How does a cospan outfit a graph
+with inputs and outputs?
+The left leg $N(X)$ of the cospan 
+selects the \emph{inputs} and 
+the right leg $N(Y)$ the \emph{outputs}.  
+We will refer to the union
+of the inputs and outputs as the
+\emph{interface} of an open graph.
+The addition of an interface allows us to 
+`glue' certain open graphs together
+to produce another open graph.
+Indeed, suppose we have open graphs 
+\[
+	N ( X ) \to G \gets N ( Y )
+	\t{ and }
+	N ( Y ) \to H \gets N ( Z ).
+\]
+Then we can concatenate the cospans 
+\[
+	N(X) \to G \gets N(Y) \to H \gets N(Z). 
+\] 
+and obtain another open graph
+by pushing out over 
+$G \gets N(Y) \to G'$ to get 
+\[
+	N(X) \to G +_{ N ( Y ) } H \gets N(Z).
+\] 
+
+To illustrate this, 
+realize the open graph in \eqref{ex--OpenGraph1}
+as the cospan of graphs
+\begin{equation}
+\label{ex--OpenGraphCospan1}
+	\includegraphics{InclGrphx--Example--OpenGraphCospan1}
+\end{equation}
+Similarly, we realize \eqref{ex--OpenGraph2} as 
+\[
+	\includegraphics{InclGrphx--Example--OpenGraphCospan2}
+\]
+Now, pushout over
+the middle span in the concatenated
+cospans
+\[
+	\includegraphics{InclGrphx--Example--OpenGraphCospan3}
+\]
+The result is
+\[
+	\includegraphics{InclGrphx--Example--OpenGraphCospan4}
+\]
+which realizes 
+\eqref{ex--OpenGraph3} 
+as a cospan.
+
+In fact, this manner of 
+connecting open graphs together
+serves as composition 
+in a category whose objects are 
+those in the image of the functor $N$
+(see definition \ref{def:OpenGraph})
+and whose morphisms are open graphs
+up to globular isomorphism.  
+But this is just the first layer 
+of a richer structure!
+In a sense, we can endow
+the hom-spaces of this category
+with the structure of the category
+$\cat{OpenGraph}$ mentioned above,
+giving a bicategory consisting of
+edgeless graphs, 
+open graphs, and
+globular morphisms of open graphs.
+While this bicategory is interesting
+itself, it is too limiting 
+for our intended uses.  
+Indeed, we are interested in
+an upgraded version
+where the 2-cells are
+rewrites of open graphs.
+Indeed, there is a bicategory 
+$\cat{Rewrite}$ introduced by the author
+\citep{Cicala_SpansCospans}
+consisting of edgeless graphs,
+open graphs, and 
+monic-legged spans of open graphs. 
+It was even shown to be 
+symmetric monoidal and compact closed
+\citep{CicalaCourser_BicatSpansCospan}.
+The motivation for naming $\cat{Rewrite}$
+as we did is that 
+monic-legged spans of open graphs
+as 2-cells are intended to
+capture the idea of 
+double pushout graph rewriting.  
+This paper seeks to explore further
+the rewriting of open graphs.  
+We even revisit $\cat{Rewrite}$
+while applying open graphs
+to categorify $\cat{2Cob}$
+in Section 
+\todo{reference application section here}
+But first, we develop the
+rewriting theory of open graphs.
+
+\todo{show cat of oGraphs is topos so adhsv}
+
+
+
+
+
+

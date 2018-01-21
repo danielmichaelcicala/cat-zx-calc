@@ -1,0 +1,120 @@
+\begin{tikzpicture}
+	%
+	%
+	% LEFT HAND SIDE
+	% LEFT HAND SIDE
+	% LEFT HAND SIDE
+	% LEFT HAND SIDE
+	% LEFT HAND SIDE
+	%
+	%
+	\begin{scope}[shift={(0.7,0)}]
+	%
+	% GREEN SPIDER -- LHS
+	%
+	\begin{scope}[shift={(-1.4,1.4)}]
+	\node [zxgreen,label={\scriptsize $\alpha$}] (v1) at (0,0) {};
+	\node [zxopen] (v2) at (-0.7,0.3) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $m$}] (v3) at (-0.7,-0.3) {};
+	\node [zxopen] (v4) at (0.7,0.3) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $n$}] (v5) at (0.7,-0.3) {};
+	\node at (-0.7,0.1) {\scriptsize $\vdots$};
+	\node at (0.7,0.1) {\scriptsize $\vdots$};
+	\draw [->-]  (v2) to [out=0,in=135] (v1);
+	\draw [->-] (v3) to [out=0,in=225] (v1);
+	\draw [->-] (v1) to [out=45,in=180] (v4);
+	\draw [->-] (v1) to [out=-45,in=180] (v5);
+	\draw[decoration={brace,mirror,raise=2pt},decorate]
+	(v2.north west) -- node [left=2pt] {\scriptsize $m$} (v3.south west); 
+	\draw[decoration={brace,mirror,raise=2pt},decorate]
+	(v5.south east) -- node [right=2pt] {\scriptsize $n$} (v4.north east); 
+	\end{scope}
+	%
+	% RED SPIDER -- LHS
+	%
+	\begin{scope}[shift={(1.5,1.4)}]
+	\node [zxred,label={\scriptsize $\beta$}] (v1) at (0,0) {};
+	\node [zxopen] (v2) at (-0.7,0.3) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $m'$}] (v3) at (-0.7,-0.3) {};
+	\node [zxopen] (v4) at (0.7,0.3) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $n'$}] (v5) at (0.7,-0.3) {};
+	%
+	\node at (0.7,0.1) {\scriptsize $\vdots$};
+	\draw [->-]  (v2) to [out=0,in=135] (v1);
+	\draw [->-] (v3) to [out=0,in=225] (v1);
+	\draw [->-] (v1) to [out=45,in=180] (v4);
+	\draw [->-] (v1) to [out=-45,in=180] (v5);
+	\draw[decoration={brace,mirror,raise=2pt},decorate]
+	(v2.north west) -- node [shift={(-0.3,0.05)}] {\scriptsize $m'$} (v3.south west); 
+	\draw[decoration={brace,raise=2pt},decorate]
+	(v4.north east) -- node [shift={(0.3,0.05)}] {\scriptsize $n'$} (v5.south east); 	
+	\end{scope}
+	%
+	% EXTRA STUFF
+	%
+	\begin{scope}[shift={(0.4,1.4)}]
+	\node at (-0.4,0) {$+$};
+	\end{scope}
+	\end{scope}
+	%
+	% 
+	% RIGHT HAND SIDE
+	% RIGHT HAND SIDE
+	% RIGHT HAND SIDE
+	% RIGHT HAND SIDE
+	% RIGHT HAND SIDE
+	%
+	%
+	\begin{scope}[shift={(5.2,2)}]
+	%
+	% GREEN SPIDER -- RHS
+	%
+	\begin{scope}[shift={(-0.1,-0.2)}]
+	\node [zxgreen,label={\scriptsize $\alpha$}] (v1) at (0,0) {};
+	\node [zxopen] (v2) at (-0.7,0.3) {};
+	\node [zxopen] (v3) at (-0.7,-0.3) {};
+	\node [zxopen] (v4) at (0.7,0.3) {};
+	\node [zxopen] (v5) at (0.7,-0.3) {};
+	\node at (-0.7,0.1) {\scriptsize $\vdots$};
+	\node at (0.7,0.1) {\scriptsize $\vdots$};
+	\draw [->-]  (v2) to [out=0,in=135] (v1);
+	\draw [->-] (v3) to [out=0,in=225] (v1);
+	\draw [->-] (v1) to [out=45,in=180] (v4);
+	\draw [->-] (v1) to [out=-45,in=180] (v5);
+	\draw[decoration={brace,mirror,raise=2pt},decorate]
+	(v2.north west) -- node [left=2pt] {\scriptsize $m$} (v3.south west); 
+	\draw[decoration={brace,raise=2pt},decorate]
+	(v4.north east) -- node [right=2pt] {\scriptsize $n$} (v5.south east); 	
+	%
+	\node [zxred,label={\scriptsize $\beta$}] (w1) at (0,-0.9) {};
+	\node [zxopen] (w2) at (-0.7,-0.6) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $m+m'$}] (w3) at (-0.7,-1.2) {};
+	\node [zxopen] (w4) at (0.7,-0.6) {};
+	\node [zxopen,label={[shift={(0,-0.7)}] $n+n'$}] (w5) at (0.7,-1.2) {};
+	%
+	\node at (-0.7,-0.8) {\scriptsize $\vdots$};
+	\node at (0.7,-0.8) {\scriptsize $\vdots$};
+	\draw [->-]  (w2) to [out=0,in=135] (w1);
+	\draw [->-] (w3) to [out=0,in=225] (w1);
+	\draw [->-] (w1) to [out=45,in=180] (w4);
+	\draw [->-] (w1) to [out=-45,in=180] (w5);
+	\draw[decoration={brace,mirror,raise=2pt},decorate]
+	(w2.north west) -- node [left=2pt] {\scriptsize $m'$} (w3.south west); 
+	\draw[decoration={brace,raise=2pt},decorate]
+	(w4.north east) -- node [right=2pt] {\scriptsize $n'$} (w5.south east); 	
+	\end{scope}
+	%
+	% EXTRA STUFF -- RHS
+	%
+	\begin{scope}[shift={(-1.5,-0.6)}]
+	\node at (0,0) {$=$};
+	\end{scope}
+	%
+	%
+	%
+	%
+	%
+	%
+	\end{scope}
+\end{tikzpicture}
+

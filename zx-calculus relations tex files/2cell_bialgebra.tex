@@ -1,0 +1,109 @@
+\documentclass[tikz, preview]{standalone}
+
+\usepackage{amsfonts, amsthm, amssymb, amsmath, stmaryrd, etoolbox}
+\usepackage{tikz}
+\usepackage[all,2cell]{xy}
+\usetikzlibrary{matrix,arrows,shapes,decorations.markings,decorations.pathreplacing}
+\definecolor{rewritecolor}{rgb}{0,.9,1}
+\tikzset{rewritenode/.style={shape=circle,fill=rewritecolor,scale=0.25,font=\Huge}}
+\tikzset{RWopen/.style={shape=circle,draw=black,fill=white,scale=0.5,font=\Huge}}
+\tikzset{RWclosed/.style={shape=circle,fill=black,scale=0.5,font=\Huge}}
+\tikzset{CDnode/.style={shape=circle,fill=white,scale=.5}}
+\tikzset{zxgreen/.style={shape=circle,draw,thick,fill=green}}
+\tikzset{zxred/.style={shape=circle,draw,thick,fill=red}}
+\tikzset{zxyellow/.style={shape=rectangle,draw,thick,fill=yellow}}
+\tikzset{zxdiamond/.style={shape=diamond,fill=black,inner sep=2.75}}
+\tikzset{zxopen/.style={shape=circle,draw,thick,inner sep=2pt}}
+\tikzset{->-/.style={decoration={markings,mark=at position .5 with {\arrow{>}}},postaction={decorate}}}
+\tikzset{->-pos/.style={decoration={markings,mark=at position #1 with {\arrow{>}}},postaction={decorate}}}
+
+\begin{document}
+\[
+\begin{tikzpicture}
+%
+%
+%
+\begin{scope}[shift={(0.4,-0.6)}]
+\node [zxopen] (v1) at (-1.5,0.9) {};
+\node [zxopen] (v2) at (-1.5,0) {};
+\node [zxgreen,label={}] (v3) at (-1,0.9) {};
+\node [zxgreen,label={}] (v4) at (-1,0) {};
+\node [zxred,label={}] (v5) at (0.3,0) {};
+\node [zxred,label={}] (v6) at (0.3,0.9) {};
+\node [zxopen] (v7) at (0.8,0) {};
+\node [zxopen] (v8) at (0.8,0.9) {};
+\node [zxgreen,label={}] (v9) at (-0.8,-0.4) {};
+\node [zxred,label={}] (v10) at (0.2,-0.4) {};
+\node [zxopen] (v11) at (-0.3,0.9) {};
+\node [zxopen] (v12) at (-0.5,0.6) {};
+\node [zxopen] (v13) at (-0.5,0.3) {};
+\node [zxopen] (v14) at (-0.3,0) {};
+\node [zxopen] (v15) at (-0.3,-0.4) {};
+%
+\draw [->-] (v1) to (v3);
+\draw [->-] (v2) to (v4);
+\draw [->-pos=0.75] (v3) to (v12);
+\draw [->-pos=0.75] (v12) to (v5);
+\draw [->-] (v3) to (v11);
+\draw [->-] (v11) to (v6);
+\draw [->-] (v4) to (v14);
+\draw [->-] (v14) to (v5);
+\draw [->-pos=0.75] (v4) to (v13);
+\draw [->-pos=0.75] (v13) to (v6);
+\draw [->-] (v5) to (v7);
+\draw [->-] (v6) to (v8);
+\draw [->-] (v9) to (v15);
+\draw [->-] (v15) to (v10);
+%
+\node at (-1.4,-0.5) {$2$};
+\node at (0.8,-0.5) {$2$};
+\node (v11) at (1,0.3) {};
+\draw [ultra thin,rounded corners] (-1.7,1.1) rectangle (1,-0.7);
+\end{scope}
+%
+%
+%
+\begin{scope}[shift={(3.2,-0.1)}]
+\node [zxopen] (v1) at (-1,0.1) {};
+\node [zxopen] (v2) at (-1,-0.5) {};
+\node [zxopen] (v2) at (-0.6,-0.5) {};
+\node [zxopen] (v2) at (-0.6,0.1) {};
+%
+\draw [ultra thin,rounded corners] (-1.3,0.6) rectangle (-0.3,-1.2);
+\node at (-1.1,-1) {$2$};
+\node at (-0.5,-1) {$2$};
+\node (v12) at (-1.3,-0.2) {};
+\node (v14) at (-0.3,-0.2) {};
+\end{scope}
+%
+%
+%
+\begin{scope}[shift={(5.4,-0.5)}]
+\node [zxopen] (v1) at (-1.8,0.5) {};
+\node [zxopen] (v2) at (-1.8,-0.1) {};
+\node [zxopen] (v3) at (0.5,0.5) {};
+\node [zxopen] (v4) at (0.5,-0.1) {};
+\node [zxred] (v5) at (-1.2,0.2) {};
+\node [zxgreen] (v6) at (-0.1,0.2) {};
+\node [zxopen] (v7) at (-0.6,0.2) {};
+%
+\draw [->-] (v1) to [out=0,in=135] (v5);
+\draw [->-] (v2) to [out=0,in=-135] (v5);
+\draw [->-] (v5) to (v7);
+\draw [->-] (v7) to (v6);
+\draw [->-] (v6) to  [out=45,in=180] (v3);
+\draw [->-] (v6) to [out=-45,in=180] (v4);
+%
+\node at (-1.8,-0.6) {$2$};
+\node at (0.5,-0.6) {$2$};
+\draw [ultra thin,rounded corners] (-2,1) rectangle (0.7,-0.8);
+\node (v13) at (-2,0.2) {};
+\end{scope}
+%
+%
+%
+\draw [<-] (v11) edge (v12);
+\draw [<-] (v13) edge (v14);
+\end{tikzpicture}
+\]
+\end{document}
